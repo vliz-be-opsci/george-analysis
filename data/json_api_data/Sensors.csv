@@ -1,0 +1,2 @@
+description,name,encodingType,metadata,@iot.id,@iot.selfLink,Datastreams@iot.navigationLink,MultiDatastreams@iot.navigationLink
+,XXXXXXXXX,http://www.opengis.net/doc/IS/SensorML/2.0,https://sextant.ifremer.fr/examind,00136,https://sextant.ifremer.fr/examind/WS/sts/coriolis/v1.1/Sensors(00136),https://sextant.ifremer.fr/examind/WS/sts/coriolis/v1.1/Sensors(00136)/Datastreams,https://sextant.ifremer.fr/examind/WS/sts/coriolis/v1.1/Sensors(00136)/MultiDatastreams

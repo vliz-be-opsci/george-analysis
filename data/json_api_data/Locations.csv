@@ -1,0 +1,2 @@
+name,description,encodingType,location,@iot.id,@iot.selfLink,Things@iot.navigationLink,HistoricalLocations@iot.navigationLink
+3901994,,application/vnd.geo+json,"{'type': 'Feature', 'geometry': {'type': 'Point', 'coordinates': [-84.44646, -53.91017]}, 'properties': {}}",3901994,https://sextant.ifremer.fr/examind/WS/sts/coriolis/v1.1/Locations(3901994),https://sextant.ifremer.fr/examind/WS/sts/coriolis/v1.1/Locations(3901994)/Things,https://sextant.ifremer.fr/examind/WS/sts/coriolis/v1.1/Locations(3901994)/HistoricalLocations
