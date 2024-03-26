@@ -1,0 +1,5 @@
+SELECT DISTINCT (?p as ?predicates)
+WHERE {
+    <https://argo.ucsd.edu/data/data-from-gdacs#aoml> ?p ?o 
+    
+}

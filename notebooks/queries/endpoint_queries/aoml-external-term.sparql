@@ -1,0 +1,6 @@
+SELECT DISTINCT ?p ?o
+WHERE {
+    <https://argo.ucsd.edu/data/data-from-gdacs#aoml> <http://www.w3.org/ns/dcat#dataset> ?dataset . 
+    ?dataset ?p ?o . 
+    FILTER(STRSTARTS(STR(?o), "http://vocab.nerc.ac.uk/collection/"))
+}

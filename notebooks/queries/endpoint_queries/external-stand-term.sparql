@@ -1,0 +1,5 @@
+SELECT DISTINCT ?p ?o
+WHERE {
+    ?s ?p ?o . 
+    FILTER(STRSTARTS(STR(?o), "http://vocab.nerc.ac.uk/collection/"))
+}

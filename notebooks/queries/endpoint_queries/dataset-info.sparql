@@ -1,0 +1,9 @@
+SELECT DISTINCT 
+    ?catalog
+    ?dataset
+    ?title
+WHERE {
+    ?catalog <http://www.w3.org/ns/dcat#dataset> ?dataset . 
+    ?dataset a <http://www.w3.org/ns/dcat#Dataset> .
+    ?dataset <http://purl.org/dc/terms/title> ?title . 
+}

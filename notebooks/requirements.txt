@@ -9,3 +9,6 @@ scikit-learn
 scipy 
 tensorflow 
 torch
+
+# RDF
+rdflib

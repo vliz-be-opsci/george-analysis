@@ -1,0 +1,7 @@
+SELECT DISTINCT 
+    ?dataset ?p ?o
+WHERE {
+        +catalog+ <http://www.w3.org/ns/dcat#dataset> ?dataset . 
+        ?dataset <http://www.w3.org/ns/dcat#distribution> ?distribution . 
+        ?distribution ?p ?o . 
+    }

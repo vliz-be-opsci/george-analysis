@@ -1,0 +1,6 @@
+SELECT DISTINCT 
+    ?p
+WHERE {
+    ?s a <http://www.w3.org/ns/dcat#Dataset> .
+    ?s ?p ?o
+}

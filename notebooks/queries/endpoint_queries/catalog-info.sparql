@@ -1,0 +1,11 @@
+SELECT 
+    ?catalog
+    ?label
+    ?description
+    ?publisher
+WHERE {
+        ?catalog a <http://www.w3.org/ns/dcat#Catalog> .
+        ?catalog <http://www.w3.org/2000/01/rdf-schema#label> ?label .
+        ?catalog <http://purl.org/dc/terms/description> ?description . 
+        ?catalog <http://purl.org/dc/terms/publisher> ?publisher .
+    }

@@ -1,0 +1,7 @@
+SELECT DISTINCT
+    ?catalog
+    ?dataset
+WHERE {
+        ?catalog a <http://www.w3.org/ns/dcat#Catalog> .
+        ?catalog <http://www.w3.org/ns/dcat#dataset> ?dataset .
+    }
