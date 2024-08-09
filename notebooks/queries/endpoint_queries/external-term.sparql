@@ -1,0 +1,9 @@
+SELECT DISTINCT 
+    ?p ?o
+WHERE {
+        #bind(<{{ catalog }}> as ?catalog)
+
+        <https://argo.ucsd.edu/data/data-from-gdacs#aoml> <http://www.w3.org/ns/dcat#dataset> ?dataset . 
+        ?catalog ?p ?o . 
+        FILTER(STRSTARTS(STR(?o), "https://vocab.nerc.ac.uk/collection"))
+    }

@@ -1,0 +1,6 @@
+SELECT DISTINCT
+    ?p ?o
+WHERE {
+        bind(<{{ dataset }}> as ?dataset)
+        ?dataset ?p ?o .
+    }
