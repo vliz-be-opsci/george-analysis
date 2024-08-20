@@ -1,0 +1,6 @@
+Property,Count,Types,Example
+id,11,int,23617
+name,11,str,ARCTIC OCEAN
+subBasins,11,list,"[{'id': 24027, 'name': 'KARA SEA'}, {'id': 24029, 'name': 'BARENTS SEA'}, {'id': 24026, 'name': 'LAPTEV SEA'}, {'id': 24020, 'name': 'WHITE SEA'}, {'id': 24021, 'name': 'ICELAND SEA'}, {'id': 24024, 'name': 'NORWEGIAN SEA'}, {'id': 24025, 'name': 'EAST SIBERIAN SEA'}, {'id': 24028, 'name': 'NORTHWESTERN PASSAGES'}, {'id': 24019, 'name': 'DAVIS STRAIT'}, {'id': 24030, 'name': 'BAFFIN BAY'}, {'id': 24032, 'name': 'LINCOLN SEA'}, {'id': 24018, 'name': 'HUDSON BAY'}, {'id': 24023, 'name': 'BEAUFORT SEA'}, {'id': 36279, 'name': 'GREENLAND SEA'}, {'id': 24017, 'name': 'HUDSON STRAIT'}, {'id': 24022, 'name': 'CHUKCHI SEA'}, {'id': 26579, 'name': 'FRAM STRAIT'}]"
+subBasins.id,236,int,26579
+subBasins.name,236,str,FRAM STRAIT
