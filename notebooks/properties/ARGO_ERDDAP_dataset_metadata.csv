@@ -437,7 +437,7 @@ attribute,date_creation,long_name,String,Date of file creation,ArgoFloats
 attribute,date_creation,time_origin,String,01-JAN-1970 00:00:00,ArgoFloats
 attribute,date_creation,units,String,seconds since 1970-01-01T00:00:00Z,ArgoFloats
 variable,date_update,,double,,ArgoFloats
-attribute,date_update,actual_range,double,"1.523152396E9, 1.724060864E9",ArgoFloats
+attribute,date_update,actual_range,double,"1.523152396E9, 1.72414742E9",ArgoFloats
 attribute,date_update,ioos_category,String,Time,ArgoFloats
 attribute,date_update,long_name,String,Date of update of this file,ArgoFloats
 attribute,date_update,time_origin,String,01-JAN-1970 00:00:00,ArgoFloats
@@ -809,7 +809,7 @@ attribute,NC_GLOBAL,geospatial_lat_units,String,degrees_north,ArgoFloats-synthet
 attribute,NC_GLOBAL,geospatial_lon_max,double,181.706,ArgoFloats-synthetic-BGC
 attribute,NC_GLOBAL,geospatial_lon_min,double,-999.999,ArgoFloats-synthetic-BGC
 attribute,NC_GLOBAL,geospatial_lon_units,String,degrees_east,ArgoFloats-synthetic-BGC
-attribute,NC_GLOBAL,history,String,2024-08-13T11:32:13Z creation (software version 1.18 (version 11.01.2024 for ARGO_simplified_profile)),ArgoFloats-synthetic-BGC
+attribute,NC_GLOBAL,history,String,2024-08-19T14:06:29Z creation (software version 1.18 (version 11.01.2024 for ARGO_simplified_profile)),ArgoFloats-synthetic-BGC
 attribute,NC_GLOBAL,id,String,https://doi.org/10.17882/42182,ArgoFloats-synthetic-BGC
 attribute,NC_GLOBAL,infoUrl,String,http://www.argodatamgt.org/Documentation,ArgoFloats-synthetic-BGC
 attribute,NC_GLOBAL,institution,String,Argo,ArgoFloats-synthetic-BGC
@@ -832,7 +832,7 @@ attribute,NC_GLOBAL,title,String,Argo float synthetic vertical profiles : BGC da
 attribute,NC_GLOBAL,user_manual_version,String,1.0,ArgoFloats-synthetic-BGC
 attribute,NC_GLOBAL,Westernmost_Easting,double,-999.999,ArgoFloats-synthetic-BGC
 variable,wmo_inst_type,,String,,ArgoFloats-synthetic-BGC
-attribute,wmo_inst_type,_ChunkSizes,int,"120, 4",ArgoFloats-synthetic-BGC
+attribute,wmo_inst_type,_ChunkSizes,int,"121, 4",ArgoFloats-synthetic-BGC
 attribute,wmo_inst_type,conventions,String,Argo reference table 8,ArgoFloats-synthetic-BGC
 attribute,wmo_inst_type,ioos_category,String,Unknown,ArgoFloats-synthetic-BGC
 attribute,wmo_inst_type,long_name,String,Coded instrument type,ArgoFloats-synthetic-BGC
@@ -849,7 +849,7 @@ attribute,date_update,long_name,String,Date of update of this file,ArgoFloats-sy
 attribute,date_update,time_origin,String,01-JAN-1970 00:00:00,ArgoFloats-synthetic-BGC
 attribute,date_update,units,String,seconds since 1970-01-01T00:00:00Z,ArgoFloats-synthetic-BGC
 variable,pi_name,,String,,ArgoFloats-synthetic-BGC
-attribute,pi_name,_ChunkSizes,int,"120, 64",ArgoFloats-synthetic-BGC
+attribute,pi_name,_ChunkSizes,int,"121, 64",ArgoFloats-synthetic-BGC
 attribute,pi_name,ioos_category,String,Identifier,ArgoFloats-synthetic-BGC
 attribute,pi_name,long_name,String,Name of the principal investigator,ArgoFloats-synthetic-BGC
 variable,bbp470,,float,,ArgoFloats-synthetic-BGC
@@ -880,7 +880,7 @@ attribute,bbp532_adjusted,actual_range,float,"4.364551E-4, 0.04183484",ArgoFloat
 variable,bbp532_adjusted_qc,,String,,ArgoFloats-synthetic-BGC
 variable,bbp532_adjusted_error,,float,,ArgoFloats-synthetic-BGC
 variable,bbp700,,float,,ArgoFloats-synthetic-BGC
-attribute,bbp700,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,bbp700,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,bbp700,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,bbp700,actual_range,float,"-1.550486E7, 1.146227E33",ArgoFloats-synthetic-BGC
 attribute,bbp700,C_format,String,%.7f,ArgoFloats-synthetic-BGC
@@ -893,11 +893,11 @@ attribute,bbp700,units,String,m-1,ArgoFloats-synthetic-BGC
 attribute,bbp700,valid_max,float,,ArgoFloats-synthetic-BGC
 attribute,bbp700,valid_min,float,,ArgoFloats-synthetic-BGC
 variable,bbp700_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,bbp700_qc,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,bbp700_qc,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,bbp700_qc,conventions,String,Argo reference table 2,ArgoFloats-synthetic-BGC
 attribute,bbp700_qc,long_name,String,quality flag,ArgoFloats-synthetic-BGC
 variable,bbp700_adjusted,,float,,ArgoFloats-synthetic-BGC
-attribute,bbp700_adjusted,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,bbp700_adjusted,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,bbp700_adjusted,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,bbp700_adjusted,actual_range,float,"-0.004745516, 2.202253",ArgoFloats-synthetic-BGC
 attribute,bbp700_adjusted,C_format,String,%.7f,ArgoFloats-synthetic-BGC
@@ -906,11 +906,11 @@ attribute,bbp700_adjusted,long_name,String,Particle backscattering at 700 nanome
 attribute,bbp700_adjusted,resolution,float,1.0E-7,ArgoFloats-synthetic-BGC
 attribute,bbp700_adjusted,units,String,m-1,ArgoFloats-synthetic-BGC
 variable,bbp700_adjusted_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,bbp700_adjusted_qc,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,bbp700_adjusted_qc,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,bbp700_adjusted_qc,conventions,String,Argo reference table 2,ArgoFloats-synthetic-BGC
 attribute,bbp700_adjusted_qc,long_name,String,quality flag,ArgoFloats-synthetic-BGC
 variable,bbp700_adjusted_error,,float,,ArgoFloats-synthetic-BGC
-attribute,bbp700_adjusted_error,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,bbp700_adjusted_error,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,bbp700_adjusted_error,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,bbp700_adjusted_error,actual_range,float,"4.503E-6, 0.0152778",ArgoFloats-synthetic-BGC
 attribute,bbp700_adjusted_error,C_format,String,%.7f,ArgoFloats-synthetic-BGC
@@ -958,7 +958,7 @@ variable,cdom_adjusted,,float,,ArgoFloats-synthetic-BGC
 variable,cdom_adjusted_qc,,String,,ArgoFloats-synthetic-BGC
 variable,cdom_adjusted_error,,float,,ArgoFloats-synthetic-BGC
 variable,chla,,float,,ArgoFloats-synthetic-BGC
-attribute,chla,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,chla,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,chla,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,chla,actual_range,float,"-4.9608, 33553.33",ArgoFloats-synthetic-BGC
 attribute,chla,C_format,String,%.4f,ArgoFloats-synthetic-BGC
@@ -972,11 +972,11 @@ attribute,chla,units,String,mg/m3,ArgoFloats-synthetic-BGC
 attribute,chla,valid_max,float,,ArgoFloats-synthetic-BGC
 attribute,chla,valid_min,float,,ArgoFloats-synthetic-BGC
 variable,chla_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,chla_qc,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,chla_qc,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,chla_qc,conventions,String,Argo reference table 2,ArgoFloats-synthetic-BGC
 attribute,chla_qc,long_name,String,quality flag,ArgoFloats-synthetic-BGC
 variable,chla_adjusted,,float,,ArgoFloats-synthetic-BGC
-attribute,chla_adjusted,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,chla_adjusted,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,chla_adjusted,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,chla_adjusted,actual_range,float,"-2.502, 8388.452",ArgoFloats-synthetic-BGC
 attribute,chla_adjusted,C_format,String,%.4f,ArgoFloats-synthetic-BGC
@@ -986,11 +986,11 @@ attribute,chla_adjusted,resolution,float,0.025,ArgoFloats-synthetic-BGC
 attribute,chla_adjusted,standard_name,String,mass_concentration_of_chlorophyll_a_in_sea_water,ArgoFloats-synthetic-BGC
 attribute,chla_adjusted,units,String,mg/m3,ArgoFloats-synthetic-BGC
 variable,chla_adjusted_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,chla_adjusted_qc,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,chla_adjusted_qc,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,chla_adjusted_qc,conventions,String,Argo reference table 2,ArgoFloats-synthetic-BGC
 attribute,chla_adjusted_qc,long_name,String,quality flag,ArgoFloats-synthetic-BGC
 variable,chla_adjusted_error,,float,,ArgoFloats-synthetic-BGC
-attribute,chla_adjusted_error,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,chla_adjusted_error,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,chla_adjusted_error,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,chla_adjusted_error,actual_range,float,"0.0, 1536.899",ArgoFloats-synthetic-BGC
 attribute,chla_adjusted_error,C_format,String,%.4f,ArgoFloats-synthetic-BGC
@@ -1136,7 +1136,7 @@ variable,down_irradiance670_adjusted,,float,,ArgoFloats-synthetic-BGC
 variable,down_irradiance670_adjusted_qc,,String,,ArgoFloats-synthetic-BGC
 variable,down_irradiance670_adjusted_error,,float,,ArgoFloats-synthetic-BGC
 variable,doxy,,float,,ArgoFloats-synthetic-BGC
-attribute,doxy,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,doxy,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,doxy,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,doxy,actual_range,float,"-1.505E8, 3.83667E7",ArgoFloats-synthetic-BGC
 attribute,doxy,C_format,String,%.3f,ArgoFloats-synthetic-BGC
@@ -1150,11 +1150,11 @@ attribute,doxy,units,String,micromole/kg,ArgoFloats-synthetic-BGC
 attribute,doxy,valid_max,float,600.0,ArgoFloats-synthetic-BGC
 attribute,doxy,valid_min,float,-5.0,ArgoFloats-synthetic-BGC
 variable,doxy_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,doxy_qc,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,doxy_qc,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,doxy_qc,conventions,String,Argo reference table 2,ArgoFloats-synthetic-BGC
 attribute,doxy_qc,long_name,String,quality flag,ArgoFloats-synthetic-BGC
 variable,doxy_adjusted,,float,,ArgoFloats-synthetic-BGC
-attribute,doxy_adjusted,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,doxy_adjusted,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,doxy_adjusted,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,doxy_adjusted,actual_range,float,"-1.61178E8, 1.205848E7",ArgoFloats-synthetic-BGC
 attribute,doxy_adjusted,C_format,String,%.3f,ArgoFloats-synthetic-BGC
@@ -1166,11 +1166,11 @@ attribute,doxy_adjusted,units,String,micromole/kg,ArgoFloats-synthetic-BGC
 attribute,doxy_adjusted,valid_max,float,600.0,ArgoFloats-synthetic-BGC
 attribute,doxy_adjusted,valid_min,float,-5.0,ArgoFloats-synthetic-BGC
 variable,doxy_adjusted_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,doxy_adjusted_qc,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,doxy_adjusted_qc,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,doxy_adjusted_qc,conventions,String,Argo reference table 2,ArgoFloats-synthetic-BGC
 attribute,doxy_adjusted_qc,long_name,String,quality flag,ArgoFloats-synthetic-BGC
 variable,doxy_adjusted_error,,float,,ArgoFloats-synthetic-BGC
-attribute,doxy_adjusted_error,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,doxy_adjusted_error,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,doxy_adjusted_error,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,doxy_adjusted_error,actual_range,float,"-107.438, 4667.415",ArgoFloats-synthetic-BGC
 attribute,doxy_adjusted_error,C_format,String,%.3f,ArgoFloats-synthetic-BGC
@@ -1209,7 +1209,7 @@ variable,doxy3_adjusted_qc,,String,,ArgoFloats-synthetic-BGC
 variable,doxy3_adjusted_error,,float,,ArgoFloats-synthetic-BGC
 attribute,doxy3_adjusted_error,actual_range,float,"8.0, 9.0",ArgoFloats-synthetic-BGC
 variable,nitrate,,float,,ArgoFloats-synthetic-BGC
-attribute,nitrate,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,nitrate,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,nitrate,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,nitrate,actual_range,float,"-2440.82, 2203.922",ArgoFloats-synthetic-BGC
 attribute,nitrate,C_format,String,%.3f,ArgoFloats-synthetic-BGC
@@ -1223,11 +1223,11 @@ attribute,nitrate,units,String,micromole/kg,ArgoFloats-synthetic-BGC
 attribute,nitrate,valid_max,float,,ArgoFloats-synthetic-BGC
 attribute,nitrate,valid_min,float,,ArgoFloats-synthetic-BGC
 variable,nitrate_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,nitrate_qc,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,nitrate_qc,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,nitrate_qc,conventions,String,Argo reference table 2,ArgoFloats-synthetic-BGC
 attribute,nitrate_qc,long_name,String,quality flag,ArgoFloats-synthetic-BGC
 variable,nitrate_adjusted,,float,,ArgoFloats-synthetic-BGC
-attribute,nitrate_adjusted,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,nitrate_adjusted,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,nitrate_adjusted,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,nitrate_adjusted,actual_range,float,"-393.3362, 521.4208",ArgoFloats-synthetic-BGC
 attribute,nitrate_adjusted,C_format,String,%.3f,ArgoFloats-synthetic-BGC
@@ -1237,11 +1237,11 @@ attribute,nitrate_adjusted,resolution,float,0.001,ArgoFloats-synthetic-BGC
 attribute,nitrate_adjusted,standard_name,String,moles_of_nitrate_per_unit_mass_in_sea_water,ArgoFloats-synthetic-BGC
 attribute,nitrate_adjusted,units,String,micromole/kg,ArgoFloats-synthetic-BGC
 variable,nitrate_adjusted_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,nitrate_adjusted_qc,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,nitrate_adjusted_qc,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,nitrate_adjusted_qc,conventions,String,Argo reference table 2,ArgoFloats-synthetic-BGC
 attribute,nitrate_adjusted_qc,long_name,String,quality flag,ArgoFloats-synthetic-BGC
 variable,nitrate_adjusted_error,,float,,ArgoFloats-synthetic-BGC
-attribute,nitrate_adjusted_error,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,nitrate_adjusted_error,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,nitrate_adjusted_error,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,nitrate_adjusted_error,actual_range,float,"-1.115299, 10001.9",ArgoFloats-synthetic-BGC
 attribute,nitrate_adjusted_error,C_format,String,%.3f,ArgoFloats-synthetic-BGC
@@ -1250,7 +1250,7 @@ attribute,nitrate_adjusted_error,long_name,String,Contains the error on the adju
 attribute,nitrate_adjusted_error,resolution,float,0.001,ArgoFloats-synthetic-BGC
 attribute,nitrate_adjusted_error,units,String,micromole/kg,ArgoFloats-synthetic-BGC
 variable,ph_in_situ_total,,float,,ArgoFloats-synthetic-BGC
-attribute,ph_in_situ_total,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,ph_in_situ_total,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,ph_in_situ_total,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,ph_in_situ_total,actual_range,float,"-26822.05, 3.698129E22",ArgoFloats-synthetic-BGC
 attribute,ph_in_situ_total,C_format,String,%.4f,ArgoFloats-synthetic-BGC
@@ -1264,11 +1264,11 @@ attribute,ph_in_situ_total,units,String,dimensionless,ArgoFloats-synthetic-BGC
 attribute,ph_in_situ_total,valid_max,float,,ArgoFloats-synthetic-BGC
 attribute,ph_in_situ_total,valid_min,float,,ArgoFloats-synthetic-BGC
 variable,ph_in_situ_total_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,ph_in_situ_total_qc,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,ph_in_situ_total_qc,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,ph_in_situ_total_qc,conventions,String,Argo reference table 2,ArgoFloats-synthetic-BGC
 attribute,ph_in_situ_total_qc,long_name,String,quality flag,ArgoFloats-synthetic-BGC
 variable,ph_in_situ_total_adjusted,,float,,ArgoFloats-synthetic-BGC
-attribute,ph_in_situ_total_adjusted,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,ph_in_situ_total_adjusted,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,ph_in_situ_total_adjusted,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,ph_in_situ_total_adjusted,actual_range,float,"-714.0168, 1352.24",ArgoFloats-synthetic-BGC
 attribute,ph_in_situ_total_adjusted,C_format,String,%.4f,ArgoFloats-synthetic-BGC
@@ -1278,11 +1278,11 @@ attribute,ph_in_situ_total_adjusted,resolution,float,1.0E-4,ArgoFloats-synthetic
 attribute,ph_in_situ_total_adjusted,standard_name,String,sea_water_ph_reported_on_total_scale,ArgoFloats-synthetic-BGC
 attribute,ph_in_situ_total_adjusted,units,String,dimensionless,ArgoFloats-synthetic-BGC
 variable,ph_in_situ_total_adjusted_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,ph_in_situ_total_adjusted_qc,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,ph_in_situ_total_adjusted_qc,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,ph_in_situ_total_adjusted_qc,conventions,String,Argo reference table 2,ArgoFloats-synthetic-BGC
 attribute,ph_in_situ_total_adjusted_qc,long_name,String,quality flag,ArgoFloats-synthetic-BGC
 variable,ph_in_situ_total_adjusted_error,,float,,ArgoFloats-synthetic-BGC
-attribute,ph_in_situ_total_adjusted_error,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,ph_in_situ_total_adjusted_error,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,ph_in_situ_total_adjusted_error,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,ph_in_situ_total_adjusted_error,actual_range,float,"-0.05696383, 160.0384",ArgoFloats-synthetic-BGC
 attribute,ph_in_situ_total_adjusted_error,C_format,String,%.4f,ArgoFloats-synthetic-BGC
@@ -1291,7 +1291,7 @@ attribute,ph_in_situ_total_adjusted_error,long_name,String,Contains the error on
 attribute,ph_in_situ_total_adjusted_error,resolution,float,1.0E-4,ArgoFloats-synthetic-BGC
 attribute,ph_in_situ_total_adjusted_error,units,String,dimensionless,ArgoFloats-synthetic-BGC
 variable,pres,,float,,ArgoFloats-synthetic-BGC
-attribute,pres,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,pres,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,pres,_CoordinateAxisType,String,Height,ArgoFloats-synthetic-BGC
 attribute,pres,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,pres,actual_range,float,"-5.3, 10000.0",ArgoFloats-synthetic-BGC
@@ -1307,11 +1307,11 @@ attribute,pres,units,String,decibar,ArgoFloats-synthetic-BGC
 attribute,pres,valid_max,float,12000.0,ArgoFloats-synthetic-BGC
 attribute,pres,valid_min,float,0.0,ArgoFloats-synthetic-BGC
 variable,pres_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,pres_qc,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,pres_qc,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,pres_qc,conventions,String,Argo reference table 2,ArgoFloats-synthetic-BGC
 attribute,pres_qc,long_name,String,quality flag,ArgoFloats-synthetic-BGC
 variable,pres_adjusted,,float,,ArgoFloats-synthetic-BGC
-attribute,pres_adjusted,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,pres_adjusted,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,pres_adjusted,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,pres_adjusted,actual_range,float,"-557.6254, 10000.5",ArgoFloats-synthetic-BGC
 attribute,pres_adjusted,axis,String,Z,ArgoFloats-synthetic-BGC
@@ -1324,11 +1324,11 @@ attribute,pres_adjusted,units,String,decibar,ArgoFloats-synthetic-BGC
 attribute,pres_adjusted,valid_max,float,12000.0,ArgoFloats-synthetic-BGC
 attribute,pres_adjusted,valid_min,float,0.0,ArgoFloats-synthetic-BGC
 variable,pres_adjusted_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,pres_adjusted_qc,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,pres_adjusted_qc,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,pres_adjusted_qc,conventions,String,Argo reference table 2,ArgoFloats-synthetic-BGC
 attribute,pres_adjusted_qc,long_name,String,quality flag,ArgoFloats-synthetic-BGC
 variable,pres_adjusted_error,,float,,ArgoFloats-synthetic-BGC
-attribute,pres_adjusted_error,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,pres_adjusted_error,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,pres_adjusted_error,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,pres_adjusted_error,actual_range,float,"1.998542, 20.0",ArgoFloats-synthetic-BGC
 attribute,pres_adjusted_error,C_format,String,%.3f,ArgoFloats-synthetic-BGC
@@ -1337,7 +1337,7 @@ attribute,pres_adjusted_error,long_name,String,Contains the error on the adjuste
 attribute,pres_adjusted_error,resolution,float,0.001,ArgoFloats-synthetic-BGC
 attribute,pres_adjusted_error,units,String,decibar,ArgoFloats-synthetic-BGC
 variable,psal,,float,,ArgoFloats-synthetic-BGC
-attribute,psal,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,psal,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,psal,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,psal,actual_range,float,"-249.898, 175.11",ArgoFloats-synthetic-BGC
 attribute,psal,C_format,String,%.4f,ArgoFloats-synthetic-BGC
@@ -1351,11 +1351,11 @@ attribute,psal,units,String,psu,ArgoFloats-synthetic-BGC
 attribute,psal,valid_max,float,41.0,ArgoFloats-synthetic-BGC
 attribute,psal,valid_min,float,2.0,ArgoFloats-synthetic-BGC
 variable,psal_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,psal_qc,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,psal_qc,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,psal_qc,conventions,String,Argo reference table 2,ArgoFloats-synthetic-BGC
 attribute,psal_qc,long_name,String,quality flag,ArgoFloats-synthetic-BGC
 variable,psal_adjusted,,float,,ArgoFloats-synthetic-BGC
-attribute,psal_adjusted,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,psal_adjusted,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,psal_adjusted,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,psal_adjusted,actual_range,float,"-0.0335, 99.9999",ArgoFloats-synthetic-BGC
 attribute,psal_adjusted,C_format,String,%.4f,ArgoFloats-synthetic-BGC
@@ -1367,11 +1367,11 @@ attribute,psal_adjusted,units,String,psu,ArgoFloats-synthetic-BGC
 attribute,psal_adjusted,valid_max,float,41.0,ArgoFloats-synthetic-BGC
 attribute,psal_adjusted,valid_min,float,2.0,ArgoFloats-synthetic-BGC
 variable,psal_adjusted_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,psal_adjusted_qc,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,psal_adjusted_qc,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,psal_adjusted_qc,conventions,String,Argo reference table 2,ArgoFloats-synthetic-BGC
 attribute,psal_adjusted_qc,long_name,String,quality flag,ArgoFloats-synthetic-BGC
 variable,psal_adjusted_error,,float,,ArgoFloats-synthetic-BGC
-attribute,psal_adjusted_error,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,psal_adjusted_error,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,psal_adjusted_error,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,psal_adjusted_error,actual_range,float,"4.626246E-4, 8.499573E31",ArgoFloats-synthetic-BGC
 attribute,psal_adjusted_error,C_format,String,%.4f,ArgoFloats-synthetic-BGC
@@ -1380,7 +1380,7 @@ attribute,psal_adjusted_error,long_name,String,Contains the error on the adjuste
 attribute,psal_adjusted_error,resolution,float,1.0E-4,ArgoFloats-synthetic-BGC
 attribute,psal_adjusted_error,units,String,psu,ArgoFloats-synthetic-BGC
 variable,temp,,float,,ArgoFloats-synthetic-BGC
-attribute,temp,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,temp,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,temp,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,temp,actual_range,float,"-9.9, 693233.6",ArgoFloats-synthetic-BGC
 attribute,temp,C_format,String,%.3f,ArgoFloats-synthetic-BGC
@@ -1394,11 +1394,11 @@ attribute,temp,units,String,degree_Celsius,ArgoFloats-synthetic-BGC
 attribute,temp,valid_max,float,40.0,ArgoFloats-synthetic-BGC
 attribute,temp,valid_min,float,-2.5,ArgoFloats-synthetic-BGC
 variable,temp_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,temp_qc,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,temp_qc,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,temp_qc,conventions,String,Argo reference table 2,ArgoFloats-synthetic-BGC
 attribute,temp_qc,long_name,String,quality flag,ArgoFloats-synthetic-BGC
 variable,temp_adjusted,,float,,ArgoFloats-synthetic-BGC
-attribute,temp_adjusted,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,temp_adjusted,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,temp_adjusted,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,temp_adjusted,actual_range,float,"-4.368, 99.9999",ArgoFloats-synthetic-BGC
 attribute,temp_adjusted,C_format,String,%.3f,ArgoFloats-synthetic-BGC
@@ -1410,11 +1410,11 @@ attribute,temp_adjusted,units,String,degree_Celsius,ArgoFloats-synthetic-BGC
 attribute,temp_adjusted,valid_max,float,40.0,ArgoFloats-synthetic-BGC
 attribute,temp_adjusted,valid_min,float,-2.5,ArgoFloats-synthetic-BGC
 variable,temp_adjusted_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,temp_adjusted_qc,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,temp_adjusted_qc,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,temp_adjusted_qc,conventions,String,Argo reference table 2,ArgoFloats-synthetic-BGC
 attribute,temp_adjusted_qc,long_name,String,quality flag,ArgoFloats-synthetic-BGC
 variable,temp_adjusted_error,,float,,ArgoFloats-synthetic-BGC
-attribute,temp_adjusted_error,_ChunkSizes,int,"120, 559",ArgoFloats-synthetic-BGC
+attribute,temp_adjusted_error,_ChunkSizes,int,"121, 559",ArgoFloats-synthetic-BGC
 attribute,temp_adjusted_error,_FillValue,float,99999.0,ArgoFloats-synthetic-BGC
 attribute,temp_adjusted_error,actual_range,float,"0.002, 0.01",ArgoFloats-synthetic-BGC
 attribute,temp_adjusted_error,C_format,String,%.3f,ArgoFloats-synthetic-BGC
@@ -1537,7 +1537,7 @@ attribute,time_qc,colorBarMinimum,double,0.0,ArgoFloats-synthetic-BGC
 attribute,time_qc,conventions,String,Argo reference table 2,ArgoFloats-synthetic-BGC
 attribute,time_qc,long_name,String,Quality on date and time,ArgoFloats-synthetic-BGC
 variable,direction,,String,,ArgoFloats-synthetic-BGC
-attribute,direction,_ChunkSizes,int,120,ArgoFloats-synthetic-BGC
+attribute,direction,_ChunkSizes,int,121,ArgoFloats-synthetic-BGC
 attribute,direction,colorBarMaximum,double,360.0,ArgoFloats-synthetic-BGC
 attribute,direction,colorBarMinimum,double,0.0,ArgoFloats-synthetic-BGC
 attribute,direction,conventions,String,"A: ascending profiles, D: descending profiles",ArgoFloats-synthetic-BGC
@@ -1549,7 +1549,7 @@ attribute,platform_number,conventions,String,WMO float identifier : A9IIIII,Argo
 attribute,platform_number,ioos_category,String,Identifier,ArgoFloats-synthetic-BGC
 attribute,platform_number,long_name,String,Float unique identifier,ArgoFloats-synthetic-BGC
 variable,platform_type,,String,,ArgoFloats-synthetic-BGC
-attribute,platform_type,_ChunkSizes,int,"120, 32",ArgoFloats-synthetic-BGC
+attribute,platform_type,_ChunkSizes,int,"121, 32",ArgoFloats-synthetic-BGC
 attribute,platform_type,conventions,String,Argo reference table 23,ArgoFloats-synthetic-BGC
 attribute,platform_type,ioos_category,String,Unknown,ArgoFloats-synthetic-BGC
 attribute,platform_type,long_name,String,Type of float,ArgoFloats-synthetic-BGC
@@ -1562,7 +1562,7 @@ attribute,cycle_number,colorBarMinimum,double,0.0,ArgoFloats-synthetic-BGC
 attribute,cycle_number,conventions,String,"0...N, 0 : launch cycle (if exists), 1 : first complete cycle",ArgoFloats-synthetic-BGC
 attribute,cycle_number,long_name,String,Float cycle number,ArgoFloats-synthetic-BGC
 variable,config_mission_number,,int,,ArgoFloats-synthetic-BGC
-attribute,config_mission_number,_ChunkSizes,int,120,ArgoFloats-synthetic-BGC
+attribute,config_mission_number,_ChunkSizes,int,121,ArgoFloats-synthetic-BGC
 attribute,config_mission_number,_FillValue,int,99999,ArgoFloats-synthetic-BGC
 attribute,config_mission_number,actual_range,int,"-1, 999",ArgoFloats-synthetic-BGC
 attribute,config_mission_number,colorBarMaximum,double,100.0,ArgoFloats-synthetic-BGC
@@ -1571,7 +1571,7 @@ attribute,config_mission_number,conventions,String,"1...N, 1 : first complete mi
 attribute,config_mission_number,ioos_category,String,Statistics,ArgoFloats-synthetic-BGC
 attribute,config_mission_number,long_name,String,Unique number denoting the missions performed by the float,ArgoFloats-synthetic-BGC
 variable,data_centre,,String,,ArgoFloats-synthetic-BGC
-attribute,data_centre,_ChunkSizes,int,"120, 2",ArgoFloats-synthetic-BGC
+attribute,data_centre,_ChunkSizes,int,"121, 2",ArgoFloats-synthetic-BGC
 attribute,data_centre,conventions,String,Argo reference table 4,ArgoFloats-synthetic-BGC
 attribute,data_centre,ioos_category,String,Unknown,ArgoFloats-synthetic-BGC
 attribute,data_centre,long_name,String,Data centre in charge of float data processing,ArgoFloats-synthetic-BGC
@@ -1588,7 +1588,7 @@ attribute,profile_bbp700_2_qc,colorBarMaximum,double,150.0,ArgoFloats-synthetic-
 attribute,profile_bbp700_2_qc,colorBarMinimum,double,0.0,ArgoFloats-synthetic-BGC
 attribute,profile_bbp700_2_qc,ioos_category,String,Quality,ArgoFloats-synthetic-BGC
 variable,profile_bbp700_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,profile_bbp700_qc,_ChunkSizes,int,120,ArgoFloats-synthetic-BGC
+attribute,profile_bbp700_qc,_ChunkSizes,int,121,ArgoFloats-synthetic-BGC
 attribute,profile_bbp700_qc,colorBarMaximum,double,150.0,ArgoFloats-synthetic-BGC
 attribute,profile_bbp700_qc,colorBarMinimum,double,0.0,ArgoFloats-synthetic-BGC
 attribute,profile_bbp700_qc,conventions,String,Argo reference table 2a,ArgoFloats-synthetic-BGC
@@ -1603,7 +1603,7 @@ attribute,profile_cdom_qc,colorBarMaximum,double,150.0,ArgoFloats-synthetic-BGC
 attribute,profile_cdom_qc,colorBarMinimum,double,0.0,ArgoFloats-synthetic-BGC
 attribute,profile_cdom_qc,ioos_category,String,Quality,ArgoFloats-synthetic-BGC
 variable,profile_chla_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,profile_chla_qc,_ChunkSizes,int,120,ArgoFloats-synthetic-BGC
+attribute,profile_chla_qc,_ChunkSizes,int,121,ArgoFloats-synthetic-BGC
 attribute,profile_chla_qc,colorBarMaximum,double,150.0,ArgoFloats-synthetic-BGC
 attribute,profile_chla_qc,colorBarMinimum,double,0.0,ArgoFloats-synthetic-BGC
 attribute,profile_chla_qc,conventions,String,Argo reference table 2a,ArgoFloats-synthetic-BGC
@@ -1650,7 +1650,7 @@ attribute,profile_downwelling_par_qc,colorBarMaximum,double,150.0,ArgoFloats-syn
 attribute,profile_downwelling_par_qc,colorBarMinimum,double,0.0,ArgoFloats-synthetic-BGC
 attribute,profile_downwelling_par_qc,ioos_category,String,Quality,ArgoFloats-synthetic-BGC
 variable,profile_doxy_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,profile_doxy_qc,_ChunkSizes,int,120,ArgoFloats-synthetic-BGC
+attribute,profile_doxy_qc,_ChunkSizes,int,121,ArgoFloats-synthetic-BGC
 attribute,profile_doxy_qc,colorBarMaximum,double,150.0,ArgoFloats-synthetic-BGC
 attribute,profile_doxy_qc,colorBarMinimum,double,0.0,ArgoFloats-synthetic-BGC
 attribute,profile_doxy_qc,conventions,String,Argo reference table 2a,ArgoFloats-synthetic-BGC
@@ -1665,35 +1665,35 @@ attribute,profile_doxy3_qc,colorBarMaximum,double,150.0,ArgoFloats-synthetic-BGC
 attribute,profile_doxy3_qc,colorBarMinimum,double,0.0,ArgoFloats-synthetic-BGC
 attribute,profile_doxy3_qc,ioos_category,String,Quality,ArgoFloats-synthetic-BGC
 variable,profile_nitrate_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,profile_nitrate_qc,_ChunkSizes,int,120,ArgoFloats-synthetic-BGC
+attribute,profile_nitrate_qc,_ChunkSizes,int,121,ArgoFloats-synthetic-BGC
 attribute,profile_nitrate_qc,colorBarMaximum,double,150.0,ArgoFloats-synthetic-BGC
 attribute,profile_nitrate_qc,colorBarMinimum,double,0.0,ArgoFloats-synthetic-BGC
 attribute,profile_nitrate_qc,conventions,String,Argo reference table 2a,ArgoFloats-synthetic-BGC
 attribute,profile_nitrate_qc,ioos_category,String,Quality,ArgoFloats-synthetic-BGC
 attribute,profile_nitrate_qc,long_name,String,Global quality flag of NITRATE profile,ArgoFloats-synthetic-BGC
 variable,profile_ph_in_situ_total_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,profile_ph_in_situ_total_qc,_ChunkSizes,int,120,ArgoFloats-synthetic-BGC
+attribute,profile_ph_in_situ_total_qc,_ChunkSizes,int,121,ArgoFloats-synthetic-BGC
 attribute,profile_ph_in_situ_total_qc,colorBarMaximum,double,150.0,ArgoFloats-synthetic-BGC
 attribute,profile_ph_in_situ_total_qc,colorBarMinimum,double,0.0,ArgoFloats-synthetic-BGC
 attribute,profile_ph_in_situ_total_qc,conventions,String,Argo reference table 2a,ArgoFloats-synthetic-BGC
 attribute,profile_ph_in_situ_total_qc,ioos_category,String,Quality,ArgoFloats-synthetic-BGC
 attribute,profile_ph_in_situ_total_qc,long_name,String,Global quality flag of PH_IN_SITU_TOTAL profile,ArgoFloats-synthetic-BGC
 variable,profile_pres_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,profile_pres_qc,_ChunkSizes,int,120,ArgoFloats-synthetic-BGC
+attribute,profile_pres_qc,_ChunkSizes,int,121,ArgoFloats-synthetic-BGC
 attribute,profile_pres_qc,colorBarMaximum,double,150.0,ArgoFloats-synthetic-BGC
 attribute,profile_pres_qc,colorBarMinimum,double,0.0,ArgoFloats-synthetic-BGC
 attribute,profile_pres_qc,conventions,String,Argo reference table 2a,ArgoFloats-synthetic-BGC
 attribute,profile_pres_qc,ioos_category,String,Quality,ArgoFloats-synthetic-BGC
 attribute,profile_pres_qc,long_name,String,Global quality flag of PRES profile,ArgoFloats-synthetic-BGC
 variable,profile_psal_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,profile_psal_qc,_ChunkSizes,int,120,ArgoFloats-synthetic-BGC
+attribute,profile_psal_qc,_ChunkSizes,int,121,ArgoFloats-synthetic-BGC
 attribute,profile_psal_qc,colorBarMaximum,double,150.0,ArgoFloats-synthetic-BGC
 attribute,profile_psal_qc,colorBarMinimum,double,0.0,ArgoFloats-synthetic-BGC
 attribute,profile_psal_qc,conventions,String,Argo reference table 2a,ArgoFloats-synthetic-BGC
 attribute,profile_psal_qc,ioos_category,String,Quality,ArgoFloats-synthetic-BGC
 attribute,profile_psal_qc,long_name,String,Global quality flag of PSAL profile,ArgoFloats-synthetic-BGC
 variable,profile_temp_qc,,String,,ArgoFloats-synthetic-BGC
-attribute,profile_temp_qc,_ChunkSizes,int,120,ArgoFloats-synthetic-BGC
+attribute,profile_temp_qc,_ChunkSizes,int,121,ArgoFloats-synthetic-BGC
 attribute,profile_temp_qc,colorBarMaximum,double,150.0,ArgoFloats-synthetic-BGC
 attribute,profile_temp_qc,colorBarMinimum,double,0.0,ArgoFloats-synthetic-BGC
 attribute,profile_temp_qc,conventions,String,Argo reference table 2a,ArgoFloats-synthetic-BGC
@@ -4211,7 +4211,7 @@ attribute,NC_GLOBAL,publisher_email,String,info@socib.es,OceanGlidersGDACTraject
 attribute,NC_GLOBAL,publisher_url,String,http://www.socib.es,OceanGlidersGDACTrajectories
 attribute,NC_GLOBAL,qc_manual,String,none,OceanGlidersGDACTrajectories
 attribute,NC_GLOBAL,source,String,Glider observation,OceanGlidersGDACTrajectories
-attribute,NC_GLOBAL,source_files,String,sdeep09-2024-156-4-1-sbd(01800001)\nsdeep09-2024-156-4-101-sbd(01800101)\nsdeep09-2024-156-4-103-sbd(01800103)\nsdeep09-2024-156-4-105-sbd(01800105)\nsdeep09-2024-156-4-107-sbd(01800107)\nsdeep09-2024-156-4-109-sbd(01800109)\nsdeep09-2024-156-4-11-sbd(01800011)\nsdeep09-2024-156-4-117-sbd(01800117)\nsdeep09-2024-156-4-121-sbd(01800121)\nsdeep09-2024-156-4-123-sbd(01800123)\nsdeep09-2024-156-4-125-sbd(01800125)\nsdeep09-2024-156-4-127-sbd(01800127)\nsdeep09-2024-156-4-129-sbd(01800129)\nsdeep09-2024-156-4-131-sbd(01800131)\nsdeep09-2024-156-4-133-sbd(01800133)\nsdeep09-2024-156-4-135-sbd(01800135)\nsdeep09-2024-156-4-137-sbd(01800137)\nsdeep09-2024-156-4-139-sbd(01800139)\nsdeep09-2024-156-4-14-sbd(01800014)\nsdeep09-2024-156-4-141-sbd(01800141)\nsdeep09-2024-156-4-145-sbd(01800145)\nsdeep09-2024-156-4-147-sbd(01800147)\nsdeep09-2024-156-4-149-sbd(01800149)\nsdeep09-2024-156-4-151-sbd(01800151)\nsdeep09-2024-156-4-153-sbd(01800153)\nsdeep09-2024-156-4-155-sbd(01800155)\nsdeep09-2024-156-4-157-sbd(01800157)\nsdeep09-2024-156-4-159-sbd(01800159)\nsdeep09-2024-156-4-161-sbd(01800161)\nsdeep09-2024-156-4-163-sbd(01800163)\nsdeep09-2024-156-4-167-sbd(01800167)\nsdeep09-2024-156-4-169-sbd(01800169)\nsdeep09-2024-156-4-171-sbd(01800171)\nsdeep09-2024-156-4-173-sbd(01800173)\nsdeep09-2024-156-4-175-sbd(01800175)\nsdeep09-2024-156-4-179-sbd(01800179)\nsdeep09-2024-156-4-18-sbd(01800018)\nsdeep09-2024-156-4-181-sbd(01800181)\nsdeep09-2024-156-4-183-sbd(01800183)\nsdeep09-2024-156-4-185-sbd(01800185)\nsdeep09-2024-156-4-189-sbd(01800189)\nsdeep09-2024-156-4-193-sbd(01800193)\nsdeep09-2024-156-4-196-sbd(01800196)\nsdeep09-2024-156-4-199-sbd(01800199)\nsdeep09-2024-156-4-20-sbd(01800020)\nsdeep09-2024-156-4-201-sbd(01800201)\nsdeep09-2024-156-4-203-sbd(01800203)\nsdeep09-2024-156-4-205-sbd(01800205)\nsdeep09-2024-156-4-207-sbd(01800207)\nsdeep09-2024-156-4-209-sbd(01800209)\nsdeep09-2024-156-4-211-sbd(01800211)\nsdeep09-2024-156-4-213-sbd(01800213)\nsdeep09-2024-156-4-215-sbd(01800215)\nsdeep09-2024-156-4-217-sbd(01800217)\nsdeep09-2024-156-4-219-sbd(01800219)\nsdeep09-2024-156-4-24-sbd(01800024)\nsdeep09-2024-156-4-26-sbd(01800026)\nsdeep09-2024-156-4-28-sbd(01800028)\nsdeep09-2024-156-4-3-sbd(01800003)\nsdeep09-2024-156-4-32-sbd(01800032)\nsdeep09-2024-156-4-41-sbd(01800041)\nsdeep09-2024-156-4-43-sbd(01800043)\nsdeep09-2024-156-4-47-sbd(01800047)\nsdeep09-2024-156-4-5-sbd(01800005)\nsdeep09-2024-156-4-51-sbd(01800051)\nsdeep09-2024-156-4-53-sbd(01800053)\nsdeep09-2024-156-4-55-sbd(01800055)\nsdeep09-2024-156-4-57-sbd(01800057)\nsdeep09-2024-156-4-59-sbd(01800059)\nsdeep09-2024-156-4-61-sbd(01800061)\nsdeep09-2024-156-4-67-sbd(01800067)\nsdeep09-2024-156-4-7-sbd(01800007)\nsdeep09-2024-156-4-71-sbd(01800071)\nsdeep09-2024-156-4-75-sbd(01800075)\nsdeep09-2024-156-4-77-sbd(01800077)\nsdeep09-2024-156-4-79-sbd(01800079)\nsdeep09-2024-156-4-83-sbd(01800083)\nsdeep09-2024-156-4-87-sbd(01800087)\nsdeep09-2024-156-4-89-sbd(01800089)\nsdeep09-2024-156-4-9-sbd(01800009)\nsdeep09-2024-156-4-91-sbd(01800091)\nsdeep09-2024-156-4-93-sbd(01800093)\nsdeep09-2024-156-4-97-sbd(01800097)\nsdeep09-2024-156-4-99-sbd(01800099)\nsdeep09-2024-206-1-1-sbd(01820001)\nsdeep09-2024-206-1-11-sbd(01820011)\nsdeep09-2024-206-1-13-sbd(01820013)\nsdeep09-2024-206-1-19-sbd(01820019)\nsdeep09-2024-206-1-22-sbd(01820022)\nsdeep09-2024-206-1-26-sbd(01820026)\nsdeep09-2024-206-1-3-sbd(01820003)\nsdeep09-2024-206-1-31-sbd(01820031)\nsdeep09-2024-206-1-33-sbd(01820033)\nsdeep09-2024-206-1-36-sbd(01820036)\nsdeep09-2024-206-1-38-sbd(01820038)\nsdeep09-2024-206-1-40-sbd(01820040)\nsdeep09-2024-206-1-44-sbd(01820044)\nsdeep09-2024-206-1-46-sbd(01820046)\nsdeep09-2024-206-1-48-sbd(01820048)\nsdeep09-2024-206-1-5-sbd(01820005)\nsdeep09-2024-206-1-50-sbd(01820050)\nsdeep09-2024-206-1-52-sbd(01820052)\nsdeep09-2024-206-1-54-sbd(01820054)\nsdeep09-2024-206-1-56-sbd(01820056)\nsdeep09-2024-206-1-58-sbd(01820058)\nsdeep09-2024-206-1-60-sbd(01820060)\nsdeep09-2024-206-1-62-sbd(01820062)\nsdeep09-2024-206-1-64-sbd(01820064)\nsdeep09-2024-206-1-66-sbd(01820066)\nsdeep09-2024-206-1-68-sbd(01820068)\nsdeep09-2024-206-1-7-sbd(01820007)\nsdeep09-2024-206-1-70-sbd(01820070)\nsdeep09-2024-206-1-72-sbd(01820072)\nsdeep09-2024-206-1-75-sbd(01820075)\nsdeep09-2024-206-1-77-sbd(01820077)\nsdeep09-2024-206-1-79-sbd(01820079)\nsdeep09-2024-206-1-81-sbd(01820081)\nsdeep09-2024-206-1-83-sbd(01820083)\nsdeep09-2024-206-1-85-sbd(01820085)\nsdeep09-2024-206-1-9-sbd(01820009)\nsdeep09-2024-156-3-1-tbd(01790001)\nsdeep09-2024-156-4-1-tbd(01800001)\nsdeep09-2024-156-4-101-tbd(01800101)\nsdeep09-2024-156-4-103-tbd(01800103)\nsdeep09-2024-156-4-105-tbd(01800105)\nsdeep09-2024-156-4-107-tbd(01800107)\nsdeep09-2024-156-4-109-tbd(01800109)\nsdeep09-2024-156-4-11-tbd(01800011)\nsdeep09-2024-156-4-113-tbd(01800113)\nsdeep09-2024-156-4-115-tbd(01800115)\nsdeep09-2024-156-4-117-tbd(01800117)\nsdeep09-2024-156-4-119-tbd(01800119)\nsdeep09-2024-156-4-121-tbd(01800121)\nsdeep09-2024-156-4-123-tbd(01800123)\nsdeep09-2024-156-4-125-tbd(01800125)\nsdeep09-2024-156-4-127-tbd(01800127)\nsdeep09-2024-156-4-129-tbd(01800129)\nsdeep09-2024-156-4-131-tbd(01800131)\nsdeep09-2024-156-4-133-tbd(01800133)\nsdeep09-2024-156-4-135-tbd(01800135)\nsdeep09-2024-156-4-137-tbd(01800137)\nsdeep09-2024-156-4-139-tbd(01800139)\nsdeep09-2024-156-4-14-tbd(01800014)\nsdeep09-2024-156-4-141-tbd(01800141)\nsdeep09-2024-156-4-143-tbd(01800143)\nsdeep09-2024-156-4-145-tbd(01800145)\nsdeep09-2024-156-4-147-tbd(01800147)\nsdeep09-2024-156-4-149-tbd(01800149)\nsdeep09-2024-156-4-151-tbd(01800151)\nsdeep09-2024-156-4-153-tbd(01800153)\nsdeep09-2024-156-4-155-tbd(01800155)\nsdeep09-2024-156-4-157-tbd(01800157)\nsdeep09-2024-156-4-159-tbd(01800159)\nsdeep09-2024-156-4-161-tbd(01800161)\nsdeep09-2024-156-4-163-tbd(01800163)\nsdeep09-2024-156-4-165-tbd(01800165)\nsdeep09-2024-156-4-167-tbd(01800167)\nsdeep09-2024-156-4-169-tbd(01800169)\nsdeep09-2024-156-4-171-tbd(01800171)\nsdeep09-2024-156-4-173-tbd(01800173)\nsdeep09-2024-156-4-175-tbd(01800175)\nsdeep09-2024-156-4-177-tbd(01800177)\nsdeep09-2024-156-4-179-tbd(01800179)\nsdeep09-2024-156-4-18-tbd(01800018)\nsdeep09-2024-156-4-181-tbd(01800181)\nsdeep09-2024-156-4-183-tbd(01800183)\nsdeep09-2024-156-4-185-tbd(01800185)\nsdeep09-2024-156-4-189-tbd(01800189)\nsdeep09-2024-156-4-191-tbd(01800191)\nsdeep09-2024-156-4-193-tbd(01800193)\nsdeep09-2024-156-4-196-tbd(01800196)\nsdeep09-2024-156-4-199-tbd(01800199)\nsdeep09-2024-156-4-20-tbd(01800020)\nsdeep09-2024-156-4-201-tbd(01800201)\nsdeep09-2024-156-4-203-tbd(01800203)\nsdeep09-2024-156-4-205-tbd(01800205)\nsdeep09-2024-156-4-207-tbd(01800207)\nsdeep09-2024-156-4-209-tbd(01800209)\nsdeep09-2024-156-4-211-tbd(01800211)\nsdeep09-2024-156-4-213-tbd(01800213)\nsdeep09-2024-156-4-215-tbd(01800215)\nsdeep09-2024-156-4-217-tbd(01800217)\nsdeep09-2024-156-4-219-tbd(01800219)\nsdeep09-2024-156-4-22-tbd(01800022)\nsdeep09-2024-156-4-24-tbd(01800024)\nsdeep09-2024-156-4-26-tbd(01800026)\nsdeep09-2024-156-4-28-tbd(01800028)\nsdeep09-2024-156-4-3-tbd(01800003)\nsdeep09-2024-156-4-32-tbd(01800032)\nsdeep09-2024-156-4-39-tbd(01800039)\nsdeep09-2024-156-4-41-tbd(01800041)\nsdeep09-2024-156-4-43-tbd(01800043)\nsdeep09-2024-156-4-45-tbd(01800045)\nsdeep09-2024-156-4-47-tbd(01800047)\nsdeep09-2024-156-4-49-tbd(01800049)\nsdeep09-2024-156-4-5-tbd(01800005)\nsdeep09-2024-156-4-51-tbd(01800051)\nsdeep09-2024-156-4-53-tbd(01800053)\nsdeep09-2024-156-4-55-tbd(01800055)\nsdeep09-2024-156-4-57-tbd(01800057)\nsdeep09-2024-156-4-59-tbd(01800059)\nsdeep09-2024-156-4-61-tbd(01800061)\nsdeep09-2024-156-4-63-tbd(01800063)\nsdeep09-2024-156-4-65-tbd(01800065)\nsdeep09-2024-156-4-67-tbd(01800067)\nsdeep09-2024-156-4-7-tbd(01800007)\nsdeep09-2024-156-4-71-tbd(01800071)\nsdeep09-2024-156-4-73-tbd(01800073)\nsdeep09-2024-156-4-75-tbd(01800075)\nsdeep09-2024-156-4-77-tbd(01800077)\nsdeep09-2024-156-4-79-tbd(01800079)\nsdeep09-2024-156-4-81-tbd(01800081)\nsdeep09-2024-156-4-83-tbd(01800083)\nsdeep09-2024-156-4-85-tbd(01800085)\nsdeep09-2024-156-4-87-tbd(01800087)\nsdeep09-2024-156-4-89-tbd(01800089)\nsdeep09-2024-156-4-9-tbd(01800009)\nsdeep09-2024-156-4-91-tbd(01800091)\nsdeep09-2024-156-4-93-tbd(01800093)\nsdeep09-2024-156-4-97-tbd(01800097)\nsdeep09-2024-156-4-99-tbd(01800099)\nsdeep09-2024-206-1-1-tbd(01820001)\nsdeep09-2024-206-1-11-tbd(01820011)\nsdeep09-2024-206-1-13-tbd(01820013)\nsdeep09-2024-206-1-16-tbd(01820016)\nsdeep09-2024-206-1-19-tbd(01820019)\nsdeep09-2024-206-1-22-tbd(01820022)\nsdeep09-2024-206-1-24-tbd(01820024)\nsdeep09-2024-206-1-26-tbd(01820026)\nsdeep09-2024-206-1-3-tbd(01820003)\nsdeep09-2024-206-1-31-tbd(01820031)\nsdeep09-2024-206-1-33-tbd(01820033)\nsdeep09-2024-206-1-36-tbd(01820036)\nsdeep09-2024-206-1-38-tbd(01820038)\nsdeep09-2024-206-1-40-tbd(01820040)\nsdeep09-2024-206-1-42-tbd(01820042)\nsdeep09-2024-206-1-44-tbd(01820044)\nsdeep09-2024-206-1-46-tbd(01820046)\nsdeep09-2024-206-1-48-tbd(01820048)\nsdeep09-2024-206-1-5-tbd(01820005)\nsdeep09-2024-206-1-50-tbd(01820050)\nsdeep09-2024-206-1-52-tbd(01820052)\nsdeep09-2024-206-1-54-tbd(01820054)\nsdeep09-2024-206-1-56-tbd(01820056)\nsdeep09-2024-206-1-58-tbd(01820058)\nsdeep09-2024-206-1-60-tbd(01820060)\nsdeep09-2024-206-1-62-tbd(01820062)\nsdeep09-2024-206-1-64-tbd(01820064)\nsdeep09-2024-206-1-66-tbd(01820066)\nsdeep09-2024-206-1-68-tbd(01820068)\nsdeep09-2024-206-1-7-tbd(01820007)\nsdeep09-2024-206-1-70-tbd(01820070)\nsdeep09-2024-206-1-72-tbd(01820072)\nsdeep09-2024-206-1-75-tbd(01820075)\nsdeep09-2024-206-1-77-tbd(01820077)\nsdeep09-2024-206-1-79-tbd(01820079)\nsdeep09-2024-206-1-81-tbd(01820081)\nsdeep09-2024-206-1-83-tbd(01820083)\nsdeep09-2024-206-1-85-tbd(01820085)\nsdeep09-2024-206-1-87-tbd(01820087)\nsdeep09-2024-206-1-9-tbd(01820009)\n,OceanGlidersGDACTrajectories
+attribute,NC_GLOBAL,source_files,String,sdeep09-2024-156-4-1-sbd(01800001)\nsdeep09-2024-156-4-101-sbd(01800101)\nsdeep09-2024-156-4-103-sbd(01800103)\nsdeep09-2024-156-4-105-sbd(01800105)\nsdeep09-2024-156-4-107-sbd(01800107)\nsdeep09-2024-156-4-109-sbd(01800109)\nsdeep09-2024-156-4-11-sbd(01800011)\nsdeep09-2024-156-4-117-sbd(01800117)\nsdeep09-2024-156-4-121-sbd(01800121)\nsdeep09-2024-156-4-123-sbd(01800123)\nsdeep09-2024-156-4-125-sbd(01800125)\nsdeep09-2024-156-4-127-sbd(01800127)\nsdeep09-2024-156-4-129-sbd(01800129)\nsdeep09-2024-156-4-131-sbd(01800131)\nsdeep09-2024-156-4-133-sbd(01800133)\nsdeep09-2024-156-4-135-sbd(01800135)\nsdeep09-2024-156-4-137-sbd(01800137)\nsdeep09-2024-156-4-139-sbd(01800139)\nsdeep09-2024-156-4-14-sbd(01800014)\nsdeep09-2024-156-4-141-sbd(01800141)\nsdeep09-2024-156-4-145-sbd(01800145)\nsdeep09-2024-156-4-147-sbd(01800147)\nsdeep09-2024-156-4-149-sbd(01800149)\nsdeep09-2024-156-4-151-sbd(01800151)\nsdeep09-2024-156-4-153-sbd(01800153)\nsdeep09-2024-156-4-155-sbd(01800155)\nsdeep09-2024-156-4-157-sbd(01800157)\nsdeep09-2024-156-4-159-sbd(01800159)\nsdeep09-2024-156-4-161-sbd(01800161)\nsdeep09-2024-156-4-163-sbd(01800163)\nsdeep09-2024-156-4-167-sbd(01800167)\nsdeep09-2024-156-4-169-sbd(01800169)\nsdeep09-2024-156-4-171-sbd(01800171)\nsdeep09-2024-156-4-173-sbd(01800173)\nsdeep09-2024-156-4-175-sbd(01800175)\nsdeep09-2024-156-4-179-sbd(01800179)\nsdeep09-2024-156-4-18-sbd(01800018)\nsdeep09-2024-156-4-181-sbd(01800181)\nsdeep09-2024-156-4-183-sbd(01800183)\nsdeep09-2024-156-4-185-sbd(01800185)\nsdeep09-2024-156-4-189-sbd(01800189)\nsdeep09-2024-156-4-193-sbd(01800193)\nsdeep09-2024-156-4-196-sbd(01800196)\nsdeep09-2024-156-4-199-sbd(01800199)\nsdeep09-2024-156-4-20-sbd(01800020)\nsdeep09-2024-156-4-201-sbd(01800201)\nsdeep09-2024-156-4-203-sbd(01800203)\nsdeep09-2024-156-4-205-sbd(01800205)\nsdeep09-2024-156-4-207-sbd(01800207)\nsdeep09-2024-156-4-209-sbd(01800209)\nsdeep09-2024-156-4-211-sbd(01800211)\nsdeep09-2024-156-4-213-sbd(01800213)\nsdeep09-2024-156-4-215-sbd(01800215)\nsdeep09-2024-156-4-217-sbd(01800217)\nsdeep09-2024-156-4-219-sbd(01800219)\nsdeep09-2024-156-4-24-sbd(01800024)\nsdeep09-2024-156-4-26-sbd(01800026)\nsdeep09-2024-156-4-28-sbd(01800028)\nsdeep09-2024-156-4-3-sbd(01800003)\nsdeep09-2024-156-4-32-sbd(01800032)\nsdeep09-2024-156-4-41-sbd(01800041)\nsdeep09-2024-156-4-43-sbd(01800043)\nsdeep09-2024-156-4-47-sbd(01800047)\nsdeep09-2024-156-4-5-sbd(01800005)\nsdeep09-2024-156-4-51-sbd(01800051)\nsdeep09-2024-156-4-53-sbd(01800053)\nsdeep09-2024-156-4-55-sbd(01800055)\nsdeep09-2024-156-4-57-sbd(01800057)\nsdeep09-2024-156-4-59-sbd(01800059)\nsdeep09-2024-156-4-61-sbd(01800061)\nsdeep09-2024-156-4-67-sbd(01800067)\nsdeep09-2024-156-4-7-sbd(01800007)\nsdeep09-2024-156-4-71-sbd(01800071)\nsdeep09-2024-156-4-75-sbd(01800075)\nsdeep09-2024-156-4-77-sbd(01800077)\nsdeep09-2024-156-4-79-sbd(01800079)\nsdeep09-2024-156-4-83-sbd(01800083)\nsdeep09-2024-156-4-87-sbd(01800087)\nsdeep09-2024-156-4-89-sbd(01800089)\nsdeep09-2024-156-4-9-sbd(01800009)\nsdeep09-2024-156-4-91-sbd(01800091)\nsdeep09-2024-156-4-93-sbd(01800093)\nsdeep09-2024-156-4-97-sbd(01800097)\nsdeep09-2024-156-4-99-sbd(01800099)\nsdeep09-2024-206-1-1-sbd(01820001)\nsdeep09-2024-206-1-11-sbd(01820011)\nsdeep09-2024-206-1-13-sbd(01820013)\nsdeep09-2024-206-1-19-sbd(01820019)\nsdeep09-2024-206-1-22-sbd(01820022)\nsdeep09-2024-206-1-26-sbd(01820026)\nsdeep09-2024-206-1-3-sbd(01820003)\nsdeep09-2024-206-1-31-sbd(01820031)\nsdeep09-2024-206-1-33-sbd(01820033)\nsdeep09-2024-206-1-36-sbd(01820036)\nsdeep09-2024-206-1-38-sbd(01820038)\nsdeep09-2024-206-1-40-sbd(01820040)\nsdeep09-2024-206-1-44-sbd(01820044)\nsdeep09-2024-206-1-46-sbd(01820046)\nsdeep09-2024-206-1-48-sbd(01820048)\nsdeep09-2024-206-1-5-sbd(01820005)\nsdeep09-2024-206-1-50-sbd(01820050)\nsdeep09-2024-206-1-52-sbd(01820052)\nsdeep09-2024-206-1-54-sbd(01820054)\nsdeep09-2024-206-1-56-sbd(01820056)\nsdeep09-2024-206-1-58-sbd(01820058)\nsdeep09-2024-206-1-60-sbd(01820060)\nsdeep09-2024-206-1-62-sbd(01820062)\nsdeep09-2024-206-1-64-sbd(01820064)\nsdeep09-2024-206-1-66-sbd(01820066)\nsdeep09-2024-206-1-68-sbd(01820068)\nsdeep09-2024-206-1-7-sbd(01820007)\nsdeep09-2024-206-1-70-sbd(01820070)\nsdeep09-2024-206-1-72-sbd(01820072)\nsdeep09-2024-206-1-75-sbd(01820075)\nsdeep09-2024-206-1-77-sbd(01820077)\nsdeep09-2024-206-1-79-sbd(01820079)\nsdeep09-2024-206-1-81-sbd(01820081)\nsdeep09-2024-206-1-83-sbd(01820083)\nsdeep09-2024-206-1-85-sbd(01820085)\nsdeep09-2024-206-1-9-sbd(01820009)\nsdeep09-2024-206-1-90-sbd(01820090)\nsdeep09-2024-156-3-1-tbd(01790001)\nsdeep09-2024-156-4-1-tbd(01800001)\nsdeep09-2024-156-4-101-tbd(01800101)\nsdeep09-2024-156-4-103-tbd(01800103)\nsdeep09-2024-156-4-105-tbd(01800105)\nsdeep09-2024-156-4-107-tbd(01800107)\nsdeep09-2024-156-4-109-tbd(01800109)\nsdeep09-2024-156-4-11-tbd(01800011)\nsdeep09-2024-156-4-113-tbd(01800113)\nsdeep09-2024-156-4-115-tbd(01800115)\nsdeep09-2024-156-4-117-tbd(01800117)\nsdeep09-2024-156-4-119-tbd(01800119)\nsdeep09-2024-156-4-121-tbd(01800121)\nsdeep09-2024-156-4-123-tbd(01800123)\nsdeep09-2024-156-4-125-tbd(01800125)\nsdeep09-2024-156-4-127-tbd(01800127)\nsdeep09-2024-156-4-129-tbd(01800129)\nsdeep09-2024-156-4-131-tbd(01800131)\nsdeep09-2024-156-4-133-tbd(01800133)\nsdeep09-2024-156-4-135-tbd(01800135)\nsdeep09-2024-156-4-137-tbd(01800137)\nsdeep09-2024-156-4-139-tbd(01800139)\nsdeep09-2024-156-4-14-tbd(01800014)\nsdeep09-2024-156-4-141-tbd(01800141)\nsdeep09-2024-156-4-143-tbd(01800143)\nsdeep09-2024-156-4-145-tbd(01800145)\nsdeep09-2024-156-4-147-tbd(01800147)\nsdeep09-2024-156-4-149-tbd(01800149)\nsdeep09-2024-156-4-151-tbd(01800151)\nsdeep09-2024-156-4-153-tbd(01800153)\nsdeep09-2024-156-4-155-tbd(01800155)\nsdeep09-2024-156-4-157-tbd(01800157)\nsdeep09-2024-156-4-159-tbd(01800159)\nsdeep09-2024-156-4-161-tbd(01800161)\nsdeep09-2024-156-4-163-tbd(01800163)\nsdeep09-2024-156-4-165-tbd(01800165)\nsdeep09-2024-156-4-167-tbd(01800167)\nsdeep09-2024-156-4-169-tbd(01800169)\nsdeep09-2024-156-4-171-tbd(01800171)\nsdeep09-2024-156-4-173-tbd(01800173)\nsdeep09-2024-156-4-175-tbd(01800175)\nsdeep09-2024-156-4-177-tbd(01800177)\nsdeep09-2024-156-4-179-tbd(01800179)\nsdeep09-2024-156-4-18-tbd(01800018)\nsdeep09-2024-156-4-181-tbd(01800181)\nsdeep09-2024-156-4-183-tbd(01800183)\nsdeep09-2024-156-4-185-tbd(01800185)\nsdeep09-2024-156-4-189-tbd(01800189)\nsdeep09-2024-156-4-191-tbd(01800191)\nsdeep09-2024-156-4-193-tbd(01800193)\nsdeep09-2024-156-4-196-tbd(01800196)\nsdeep09-2024-156-4-199-tbd(01800199)\nsdeep09-2024-156-4-20-tbd(01800020)\nsdeep09-2024-156-4-201-tbd(01800201)\nsdeep09-2024-156-4-203-tbd(01800203)\nsdeep09-2024-156-4-205-tbd(01800205)\nsdeep09-2024-156-4-207-tbd(01800207)\nsdeep09-2024-156-4-209-tbd(01800209)\nsdeep09-2024-156-4-211-tbd(01800211)\nsdeep09-2024-156-4-213-tbd(01800213)\nsdeep09-2024-156-4-215-tbd(01800215)\nsdeep09-2024-156-4-217-tbd(01800217)\nsdeep09-2024-156-4-219-tbd(01800219)\nsdeep09-2024-156-4-22-tbd(01800022)\nsdeep09-2024-156-4-24-tbd(01800024)\nsdeep09-2024-156-4-26-tbd(01800026)\nsdeep09-2024-156-4-28-tbd(01800028)\nsdeep09-2024-156-4-3-tbd(01800003)\nsdeep09-2024-156-4-32-tbd(01800032)\nsdeep09-2024-156-4-39-tbd(01800039)\nsdeep09-2024-156-4-41-tbd(01800041)\nsdeep09-2024-156-4-43-tbd(01800043)\nsdeep09-2024-156-4-45-tbd(01800045)\nsdeep09-2024-156-4-47-tbd(01800047)\nsdeep09-2024-156-4-49-tbd(01800049)\nsdeep09-2024-156-4-5-tbd(01800005)\nsdeep09-2024-156-4-51-tbd(01800051)\nsdeep09-2024-156-4-53-tbd(01800053)\nsdeep09-2024-156-4-55-tbd(01800055)\nsdeep09-2024-156-4-57-tbd(01800057)\nsdeep09-2024-156-4-59-tbd(01800059)\nsdeep09-2024-156-4-61-tbd(01800061)\nsdeep09-2024-156-4-63-tbd(01800063)\nsdeep09-2024-156-4-65-tbd(01800065)\nsdeep09-2024-156-4-67-tbd(01800067)\nsdeep09-2024-156-4-7-tbd(01800007)\nsdeep09-2024-156-4-71-tbd(01800071)\nsdeep09-2024-156-4-73-tbd(01800073)\nsdeep09-2024-156-4-75-tbd(01800075)\nsdeep09-2024-156-4-77-tbd(01800077)\nsdeep09-2024-156-4-79-tbd(01800079)\nsdeep09-2024-156-4-81-tbd(01800081)\nsdeep09-2024-156-4-83-tbd(01800083)\nsdeep09-2024-156-4-85-tbd(01800085)\nsdeep09-2024-156-4-87-tbd(01800087)\nsdeep09-2024-156-4-89-tbd(01800089)\nsdeep09-2024-156-4-9-tbd(01800009)\nsdeep09-2024-156-4-91-tbd(01800091)\nsdeep09-2024-156-4-93-tbd(01800093)\nsdeep09-2024-156-4-97-tbd(01800097)\nsdeep09-2024-156-4-99-tbd(01800099)\nsdeep09-2024-206-1-1-tbd(01820001)\nsdeep09-2024-206-1-11-tbd(01820011)\nsdeep09-2024-206-1-13-tbd(01820013)\nsdeep09-2024-206-1-16-tbd(01820016)\nsdeep09-2024-206-1-19-tbd(01820019)\nsdeep09-2024-206-1-22-tbd(01820022)\nsdeep09-2024-206-1-24-tbd(01820024)\nsdeep09-2024-206-1-26-tbd(01820026)\nsdeep09-2024-206-1-3-tbd(01820003)\nsdeep09-2024-206-1-31-tbd(01820031)\nsdeep09-2024-206-1-33-tbd(01820033)\nsdeep09-2024-206-1-36-tbd(01820036)\nsdeep09-2024-206-1-38-tbd(01820038)\nsdeep09-2024-206-1-40-tbd(01820040)\nsdeep09-2024-206-1-42-tbd(01820042)\nsdeep09-2024-206-1-44-tbd(01820044)\nsdeep09-2024-206-1-46-tbd(01820046)\nsdeep09-2024-206-1-48-tbd(01820048)\nsdeep09-2024-206-1-5-tbd(01820005)\nsdeep09-2024-206-1-50-tbd(01820050)\nsdeep09-2024-206-1-52-tbd(01820052)\nsdeep09-2024-206-1-54-tbd(01820054)\nsdeep09-2024-206-1-56-tbd(01820056)\nsdeep09-2024-206-1-58-tbd(01820058)\nsdeep09-2024-206-1-60-tbd(01820060)\nsdeep09-2024-206-1-62-tbd(01820062)\nsdeep09-2024-206-1-64-tbd(01820064)\nsdeep09-2024-206-1-66-tbd(01820066)\nsdeep09-2024-206-1-68-tbd(01820068)\nsdeep09-2024-206-1-7-tbd(01820007)\nsdeep09-2024-206-1-70-tbd(01820070)\nsdeep09-2024-206-1-72-tbd(01820072)\nsdeep09-2024-206-1-75-tbd(01820075)\nsdeep09-2024-206-1-77-tbd(01820077)\nsdeep09-2024-206-1-79-tbd(01820079)\nsdeep09-2024-206-1-81-tbd(01820081)\nsdeep09-2024-206-1-83-tbd(01820083)\nsdeep09-2024-206-1-85-tbd(01820085)\nsdeep09-2024-206-1-87-tbd(01820087)\nsdeep09-2024-206-1-9-tbd(01820009)\nsdeep09-2024-206-1-90-tbd(01820090)\n,OceanGlidersGDACTrajectories
 attribute,NC_GLOBAL,sourceUrl,String,(local files),OceanGlidersGDACTrajectories
 attribute,NC_GLOBAL,Southernmost_Northing,double,-94.01332363329217,OceanGlidersGDACTrajectories
 attribute,NC_GLOBAL,standard_name_vocabulary,String,CF Standard Name Table v29,OceanGlidersGDACTrajectories
