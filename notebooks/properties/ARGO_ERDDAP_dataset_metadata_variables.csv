@@ -1,0 +1,964 @@
+DatasetID,Variable Name,Data Type,Value
+ArgoFloats,chla,['float'],[nan]
+ArgoFloats,chla_qc,['String'],[nan]
+ArgoFloats,config_mission_number,['int'],[nan]
+ArgoFloats,cycle_number,['int'],[nan]
+ArgoFloats,data_center,['String'],[nan]
+ArgoFloats,data_mode,['String'],[nan]
+ArgoFloats,data_state_indicator,['String'],[nan]
+ArgoFloats,data_type,['String'],[nan]
+ArgoFloats,date_creation,['double'],[nan]
+ArgoFloats,date_update,['double'],[nan]
+ArgoFloats,dc_reference,['String'],[nan]
+ArgoFloats,direction,['String'],[nan]
+ArgoFloats,doxy,['float'],[nan]
+ArgoFloats,doxy_qc,['String'],[nan]
+ArgoFloats,fileNumber,['String'],[nan]
+ArgoFloats,firmware_version,['String'],[nan]
+ArgoFloats,float_serial_no,['String'],[nan]
+ArgoFloats,format_version,['String'],[nan]
+ArgoFloats,handbook_version,['String'],[nan]
+ArgoFloats,latitude,['double'],[nan]
+ArgoFloats,longitude,['double'],[nan]
+ArgoFloats,molar_doxy,['float'],[nan]
+ArgoFloats,molar_doxy_qc,['String'],[nan]
+ArgoFloats,nitrate,['float'],[nan]
+ArgoFloats,nitrate_qc,['String'],[nan]
+ArgoFloats,pi_name,['String'],[nan]
+ArgoFloats,platform_number,['String'],[nan]
+ArgoFloats,platform_type,['String'],[nan]
+ArgoFloats,position_qc,['String'],[nan]
+ArgoFloats,positioning_system,['String'],[nan]
+ArgoFloats,pres,['float'],[nan]
+ArgoFloats,pres_adjusted,['float'],[nan]
+ArgoFloats,pres_adjusted_error,['float'],[nan]
+ArgoFloats,pres_adjusted_qc,['String'],[nan]
+ArgoFloats,pres_qc,['String'],[nan]
+ArgoFloats,profile_pres_qc,['String'],[nan]
+ArgoFloats,profile_psal_qc,['String'],[nan]
+ArgoFloats,profile_temp_qc,['String'],[nan]
+ArgoFloats,project_name,['String'],[nan]
+ArgoFloats,psal,['float'],[nan]
+ArgoFloats,psal_adjusted,['float'],[nan]
+ArgoFloats,psal_adjusted_error,['float'],[nan]
+ArgoFloats,psal_adjusted_qc,['String'],[nan]
+ArgoFloats,psal_qc,['String'],[nan]
+ArgoFloats,reference_date_time,['double'],[nan]
+ArgoFloats,temp,['float'],[nan]
+ArgoFloats,temp_adjusted,['float'],[nan]
+ArgoFloats,temp_adjusted_error,['float'],[nan]
+ArgoFloats,temp_adjusted_qc,['String'],[nan]
+ArgoFloats,temp_doxy,['float'],[nan]
+ArgoFloats,temp_doxy_qc,['String'],[nan]
+ArgoFloats,temp_qc,['String'],[nan]
+ArgoFloats,time,['double'],[nan]
+ArgoFloats,time_location,['double'],[nan]
+ArgoFloats,time_qc,['String'],[nan]
+ArgoFloats,turbidity,['float'],[nan]
+ArgoFloats,turbidity_qc,['String'],[nan]
+ArgoFloats,vertical_sampling_scheme,['String'],[nan]
+ArgoFloats,wmo_inst_type,['String'],[nan]
+ArgoFloats-index,date,['double'],[nan]
+ArgoFloats-index,date_update,['double'],[nan]
+ArgoFloats-index,file,['String'],[nan]
+ArgoFloats-index,institution,['String'],[nan]
+ArgoFloats-index,latitude,['float'],[nan]
+ArgoFloats-index,longitude,['float'],[nan]
+ArgoFloats-index,ocean,['String'],[nan]
+ArgoFloats-index,profiler_type,['short'],[nan]
+ArgoFloats-reference,cycle_number,['String'],[nan]
+ArgoFloats-reference,latitude,['double'],[nan]
+ArgoFloats-reference,longitude,['double'],[nan]
+ArgoFloats-reference,n_levels,['long'],[nan]
+ArgoFloats-reference,n_prof,['String'],[nan]
+ArgoFloats-reference,pi_name,['String'],[nan]
+ArgoFloats-reference,platform_number,['String'],[nan]
+ArgoFloats-reference,pres,['double'],[nan]
+ArgoFloats-reference,psal,['double'],[nan]
+ArgoFloats-reference,ptmp,['double'],[nan]
+ArgoFloats-reference,temp,['double'],[nan]
+ArgoFloats-reference,time,['double'],[nan]
+ArgoFloats-synthetic-BGC,bbp470,['float'],[nan]
+ArgoFloats-synthetic-BGC,bbp470_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,bbp470_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,bbp470_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,bbp470_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,bbp532,['float'],[nan]
+ArgoFloats-synthetic-BGC,bbp532_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,bbp532_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,bbp532_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,bbp532_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,bbp700,['float'],[nan]
+ArgoFloats-synthetic-BGC,bbp700_2,['float'],[nan]
+ArgoFloats-synthetic-BGC,bbp700_2_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,bbp700_2_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,bbp700_2_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,bbp700_2_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,bbp700_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,bbp700_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,bbp700_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,bbp700_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,bisulfide,['float'],[nan]
+ArgoFloats-synthetic-BGC,bisulfide_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,bisulfide_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,bisulfide_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,bisulfide_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,cdom,['float'],[nan]
+ArgoFloats-synthetic-BGC,cdom_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,cdom_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,cdom_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,cdom_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,chla,['float'],[nan]
+ArgoFloats-synthetic-BGC,chla_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,chla_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,chla_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,chla_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,cndc,['float'],[nan]
+ArgoFloats-synthetic-BGC,cndc_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,cndc_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,cndc_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,cndc_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,config_mission_number,['int'],[nan]
+ArgoFloats-synthetic-BGC,cp660,['float'],[nan]
+ArgoFloats-synthetic-BGC,cp660_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,cp660_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,cp660_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,cp660_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,cycle_number,['int'],[nan]
+ArgoFloats-synthetic-BGC,data_centre,['String'],[nan]
+ArgoFloats-synthetic-BGC,data_type,['String'],[nan]
+ArgoFloats-synthetic-BGC,date_update,['double'],[nan]
+ArgoFloats-synthetic-BGC,direction,['String'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance380,['float'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance380_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance380_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance380_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance380_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance412,['float'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance412_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance412_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance412_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance412_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance443,['float'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance443_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance443_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance443_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance443_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance490,['float'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance490_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance490_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance490_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance490_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance555,['float'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance555_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance555_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance555_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance555_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance665,['float'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance665_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance665_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance665_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance665_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance670,['float'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance670_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance670_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance670_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,down_irradiance670_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,downwelling_par,['float'],[nan]
+ArgoFloats-synthetic-BGC,downwelling_par_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,downwelling_par_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,downwelling_par_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,downwelling_par_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,doxy,['float'],[nan]
+ArgoFloats-synthetic-BGC,doxy2,['float'],[nan]
+ArgoFloats-synthetic-BGC,doxy2_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,doxy2_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,doxy2_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,doxy2_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,doxy3,['float'],[nan]
+ArgoFloats-synthetic-BGC,doxy3_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,doxy3_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,doxy3_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,doxy3_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,doxy_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,doxy_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,doxy_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,doxy_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,latitude,['double'],[nan]
+ArgoFloats-synthetic-BGC,longitude,['double'],[nan]
+ArgoFloats-synthetic-BGC,nitrate,['float'],[nan]
+ArgoFloats-synthetic-BGC,nitrate_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,nitrate_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,nitrate_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,nitrate_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,ph_in_situ_total,['float'],[nan]
+ArgoFloats-synthetic-BGC,ph_in_situ_total_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,ph_in_situ_total_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,ph_in_situ_total_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,ph_in_situ_total_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,pi_name,['String'],[nan]
+ArgoFloats-synthetic-BGC,platform_number,['String'],[nan]
+ArgoFloats-synthetic-BGC,platform_type,['String'],[nan]
+ArgoFloats-synthetic-BGC,position_qc,['char'],[nan]
+ArgoFloats-synthetic-BGC,pres,['float'],[nan]
+ArgoFloats-synthetic-BGC,pres_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,pres_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,pres_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,pres_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_bbp470_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_bbp532_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_bbp700_2_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_bbp700_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_bisulfide_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_cdom_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_chla_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_cndc_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_cp660_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_down_irradiance380_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_down_irradiance412_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_down_irradiance443_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_down_irradiance490_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_down_irradiance555_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_down_irradiance665_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_down_irradiance670_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_downwelling_par_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_doxy2_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_doxy3_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_doxy_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_nitrate_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_ph_in_situ_total_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_pres_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_psal_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_temp_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_turbidity_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_up_radiance412_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_up_radiance443_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_up_radiance490_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,profile_up_radiance555_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,psal,['float'],[nan]
+ArgoFloats-synthetic-BGC,psal_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,psal_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,psal_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,psal_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,temp,['float'],[nan]
+ArgoFloats-synthetic-BGC,temp_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,temp_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,temp_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,temp_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,time,['double'],[nan]
+ArgoFloats-synthetic-BGC,time_qc,['char'],[nan]
+ArgoFloats-synthetic-BGC,turbidity,['float'],[nan]
+ArgoFloats-synthetic-BGC,turbidity_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,turbidity_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,turbidity_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,turbidity_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,up_radiance412,['float'],[nan]
+ArgoFloats-synthetic-BGC,up_radiance412_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,up_radiance412_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,up_radiance412_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,up_radiance412_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,up_radiance443,['float'],[nan]
+ArgoFloats-synthetic-BGC,up_radiance443_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,up_radiance443_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,up_radiance443_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,up_radiance443_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,up_radiance490,['float'],[nan]
+ArgoFloats-synthetic-BGC,up_radiance490_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,up_radiance490_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,up_radiance490_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,up_radiance490_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,up_radiance555,['float'],[nan]
+ArgoFloats-synthetic-BGC,up_radiance555_adjusted,['float'],[nan]
+ArgoFloats-synthetic-BGC,up_radiance555_adjusted_error,['float'],[nan]
+ArgoFloats-synthetic-BGC,up_radiance555_adjusted_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,up_radiance555_qc,['String'],[nan]
+ArgoFloats-synthetic-BGC,wmo_inst_type,['String'],[nan]
+HF_75c7_5b60_95d8,CCOV,['double'],"['time, depth, latitude, longitude']"
+HF_75c7_5b60_95d8,CSPD_QC,['byte'],"['time, depth, latitude, longitude']"
+HF_75c7_5b60_95d8,DDNS_QC,['byte'],"['time, depth, latitude, longitude']"
+HF_75c7_5b60_95d8,EWCS,['double'],"['time, depth, latitude, longitude']"
+HF_75c7_5b60_95d8,EWCT,['double'],"['time, depth, latitude, longitude']"
+HF_75c7_5b60_95d8,GDOP,['double'],"['time, depth, latitude, longitude']"
+HF_75c7_5b60_95d8,GDOP_QC,['byte'],"['time, depth, latitude, longitude']"
+HF_75c7_5b60_95d8,NSCS,['double'],"['time, depth, latitude, longitude']"
+HF_75c7_5b60_95d8,NSCT,['double'],"['time, depth, latitude, longitude']"
+HF_75c7_5b60_95d8,POSITION_QC,['byte'],"['time, depth, latitude, longitude']"
+HF_75c7_5b60_95d8,QCflag,['byte'],"['time, depth, latitude, longitude']"
+HF_75c7_5b60_95d8,VART_QC,['byte'],"['time, depth, latitude, longitude']"
+HF_ac49_84ad_3eb6,CSPD_QC,['byte'],"['time, depth, latitude, longitude']"
+HF_ac49_84ad_3eb6,DDNS_QC,['byte'],"['time, depth, latitude, longitude']"
+HF_ac49_84ad_3eb6,EWCS,['double'],"['time, depth, latitude, longitude']"
+HF_ac49_84ad_3eb6,EWCT,['double'],"['time, depth, latitude, longitude']"
+HF_ac49_84ad_3eb6,GDOP,['double'],"['time, depth, latitude, longitude']"
+HF_ac49_84ad_3eb6,GDOP_QC,['byte'],"['time, depth, latitude, longitude']"
+HF_ac49_84ad_3eb6,NSCS,['double'],"['time, depth, latitude, longitude']"
+HF_ac49_84ad_3eb6,NSCT,['double'],"['time, depth, latitude, longitude']"
+HF_ac49_84ad_3eb6,POSITION_QC,['byte'],"['time, depth, latitude, longitude']"
+HF_ac49_84ad_3eb6,QCflag,['byte'],"['time, depth, latitude, longitude']"
+HF_ac49_84ad_3eb6,VART_QC,['byte'],"['time, depth, latitude, longitude']"
+OACP-Argo-Global,GLOBAL_MWABSAL,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_MWBFRQ,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_MWCONSTEMP,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_MWD,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_MWH,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_MWPLPV,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_MWPOTTEMP,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_MWPSAL,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_MWSIG0,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_MWTEMP,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_PPABSAL,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_PPBFRQ,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_PPCONSTEMP,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_PPD,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_PPD_er,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_PPH,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_PPHBTO,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_PPHBTO_er,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_PPHTOP,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_PPHTOP_er,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_PPH_er,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_PPPLPV,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_PPPOTTEMP,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_PPPSAL,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_PPSIG0,['double'],"['latitude, longitude']"
+OACP-Argo-Global,GLOBAL_PPTEMP,['double'],"['latitude, longitude']"
+OS_DYFAMED_1994-2014_D_TSO2,DOXY,['float'],"['time, PRES']"
+OS_DYFAMED_1994-2014_D_TSO2,DOXY_QC,['byte'],"['time, PRES']"
+OS_DYFAMED_1994-2014_D_TSO2,PSAL,['float'],"['time, PRES']"
+OS_DYFAMED_1994-2014_D_TSO2,PSAL_QC,['byte'],"['time, PRES']"
+OS_DYFAMED_1994-2014_D_TSO2,TEMP,['float'],"['time, PRES']"
+OS_DYFAMED_1994-2014_D_TSO2,TEMP_QC,['byte'],"['time, PRES']"
+OceanGlidersGDACTrajectories,BBP700,['float'],[nan]
+OceanGlidersGDACTrajectories,BBP700_QC,['byte'],[nan]
+OceanGlidersGDACTrajectories,BBP700_UNCERTAINTY,['float'],[nan]
+OceanGlidersGDACTrajectories,BPHASE_DOXY,['float'],[nan]
+OceanGlidersGDACTrajectories,BPHASE_DOXY_QC,['byte'],[nan]
+OceanGlidersGDACTrajectories,BPHASE_DOXY_UNCERTAINTY,['float'],[nan]
+OceanGlidersGDACTrajectories,CDOM,['float'],[nan]
+OceanGlidersGDACTrajectories,CDOM_QC,['byte'],[nan]
+OceanGlidersGDACTrajectories,CDOM_UNCERTAINTY,['float'],[nan]
+OceanGlidersGDACTrajectories,CHLA,['float'],[nan]
+OceanGlidersGDACTrajectories,CHLA_QC,['byte'],[nan]
+OceanGlidersGDACTrajectories,CHLA_UNCERTAINTY,['float'],[nan]
+OceanGlidersGDACTrajectories,CNDC,['float'],[nan]
+OceanGlidersGDACTrajectories,CNDC_QC,['byte'],[nan]
+OceanGlidersGDACTrajectories,CNDC_UNCERTAINTY,['float'],[nan]
+OceanGlidersGDACTrajectories,DPHASE_DOXY,['float'],[nan]
+OceanGlidersGDACTrajectories,DPHASE_DOXY_QC,['byte'],[nan]
+OceanGlidersGDACTrajectories,DPHASE_DOXY_UNCERTAINTY,['float'],[nan]
+OceanGlidersGDACTrajectories,JULD,['double'],[nan]
+OceanGlidersGDACTrajectories,JULD_QC,['byte'],[nan]
+OceanGlidersGDACTrajectories,MOLAR_DOXY,['float'],[nan]
+OceanGlidersGDACTrajectories,MOLAR_DOXY_QC,['byte'],[nan]
+OceanGlidersGDACTrajectories,MOLAR_DOXY_UNCERTAINTY,['float'],[nan]
+OceanGlidersGDACTrajectories,PHASE_NUMBER,['int'],[nan]
+OceanGlidersGDACTrajectories,POSITIONING_METHOD,['byte'],[nan]
+OceanGlidersGDACTrajectories,POSITION_QC,['byte'],[nan]
+OceanGlidersGDACTrajectories,PRES,['float'],[nan]
+OceanGlidersGDACTrajectories,PRES_QC,['byte'],[nan]
+OceanGlidersGDACTrajectories,PRES_UNCERTAINTY,['float'],[nan]
+OceanGlidersGDACTrajectories,PSAL,['float'],[nan]
+OceanGlidersGDACTrajectories,PSAL_QC,['byte'],[nan]
+OceanGlidersGDACTrajectories,PSAL_UNCERTAINTY,['float'],[nan]
+OceanGlidersGDACTrajectories,RPHASE_DOXY,['float'],[nan]
+OceanGlidersGDACTrajectories,RPHASE_DOXY_QC,['byte'],[nan]
+OceanGlidersGDACTrajectories,RPHASE_DOXY_UNCERTAINTY,['float'],[nan]
+OceanGlidersGDACTrajectories,TEMP,['float'],[nan]
+OceanGlidersGDACTrajectories,TEMP_DOXY,['float'],[nan]
+OceanGlidersGDACTrajectories,TEMP_DOXY_QC,['byte'],[nan]
+OceanGlidersGDACTrajectories,TEMP_DOXY_UNCERTAINTY,['float'],[nan]
+OceanGlidersGDACTrajectories,TEMP_QC,['byte'],[nan]
+OceanGlidersGDACTrajectories,TEMP_UNCERTAINTY,['float'],[nan]
+OceanGlidersGDACTrajectories,TIME_QC,['byte'],[nan]
+OceanGlidersGDACTrajectories,latitude,['double'],[nan]
+OceanGlidersGDACTrajectories,longitude,['double'],[nan]
+OceanGlidersGDACTrajectories,platform_deployment,['String'],[nan]
+OceanGlidersGDACTrajectories,time,['double'],[nan]
+SDC_BAL_AGG_V2,depth,['double'],[nan]
+SDC_BAL_AGG_V2,depth_qc,['byte'],[nan]
+SDC_BAL_AGG_V2,latitude,['float'],[nan]
+SDC_BAL_AGG_V2,longitude,['float'],[nan]
+SDC_BAL_AGG_V2,obs_date_qc,['byte'],[nan]
+SDC_BAL_AGG_V2,platform,['String'],[nan]
+SDC_BAL_AGG_V2,position_qc,['byte'],[nan]
+SDC_BAL_AGG_V2,psal,['double'],[nan]
+SDC_BAL_AGG_V2,psal_qc,['byte'],[nan]
+SDC_BAL_AGG_V2,station_id,['int'],[nan]
+SDC_BAL_AGG_V2,temp,['double'],[nan]
+SDC_BAL_AGG_V2,temp_qc,['byte'],[nan]
+SDC_BAL_AGG_V2,time,['double'],[nan]
+SDC_BAL_AGG_V2,type,['String'],[nan]
+SDC_BAL_CLIM_TS_V1_m,ITS_90_water_temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V1_m,ITS_90_water_temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V1_m,ITS_90_water_temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V1_m,ITS_90_water_temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V1_m,Water_body_salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V1_m,Water_body_salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V1_m,Water_body_salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V1_m,Water_body_salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V1_s,ITS_90_water_temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V1_s,ITS_90_water_temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V1_s,ITS_90_water_temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V1_s,ITS_90_water_temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V1_s,Water_body_salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V1_s,Water_body_salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V1_s,Water_body_salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V1_s,Water_body_salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V2_m,ITS_90_water_temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V2_m,ITS_90_water_temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V2_m,ITS_90_water_temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V2_m,ITS_90_water_temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V2_m,Water_body_salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V2_m,Water_body_salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V2_m,Water_body_salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V2_m,Water_body_salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V2_s,ITS_90_water_temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V2_s,ITS_90_water_temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V2_s,ITS_90_water_temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V2_s,ITS_90_water_temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V2_s,Water_body_salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V2_s,Water_body_salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V2_s,Water_body_salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_BAL_CLIM_TS_V2_s,Water_body_salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_AGG_V2,depth,['double'],[nan]
+SDC_BLS_AGG_V2,depth_qc,['byte'],[nan]
+SDC_BLS_AGG_V2,latitude,['float'],[nan]
+SDC_BLS_AGG_V2,longitude,['float'],[nan]
+SDC_BLS_AGG_V2,obs_date_qc,['byte'],[nan]
+SDC_BLS_AGG_V2,platform,['String'],[nan]
+SDC_BLS_AGG_V2,position_qc,['byte'],[nan]
+SDC_BLS_AGG_V2,psal,['double'],[nan]
+SDC_BLS_AGG_V2,psal_qc,['byte'],[nan]
+SDC_BLS_AGG_V2,station_id,['int'],[nan]
+SDC_BLS_AGG_V2,temp,['double'],[nan]
+SDC_BLS_AGG_V2,temp_qc,['byte'],[nan]
+SDC_BLS_AGG_V2,time,['double'],[nan]
+SDC_BLS_CLIM_TS_V1_m,ITS_90_water_temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V1_m,ITS_90_water_temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V1_m,ITS_90_water_temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V1_m,ITS_90_water_temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V1_m,Water_body_salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V1_m,Water_body_salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V1_m,Water_body_salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V1_m,Water_body_salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V1_s,ITS_90_water_temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V1_s,ITS_90_water_temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V1_s,ITS_90_water_temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V1_s,ITS_90_water_temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V1_s,Water_body_salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V1_s,Water_body_salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V1_s,Water_body_salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V1_s,Water_body_salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V2_m,Salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V2_m,Salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V2_m,Salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V2_m,Salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V2_m,Temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V2_m,Temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V2_m,Temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V2_m,Temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V2_s,Salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V2_s,Salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V2_s,Salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V2_s,Salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V2_s,Temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V2_s,Temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V2_s,Temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_CLIM_TS_V2_s,Temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_BLS_DATA_TS_V1,Access_ordering_of_data,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Access_restriction,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Alternative_cruise_name,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Alternative_station_name,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Bot_Depth,['float'],[nan]
+SDC_BLS_DATA_TS_V1,CDI_partner,['String'],[nan]
+SDC_BLS_DATA_TS_V1,CDI_record_creation_date,['String'],[nan]
+SDC_BLS_DATA_TS_V1,CDI_record_id,['String'],[nan]
+SDC_BLS_DATA_TS_V1,CSR_references,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Category,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Cruise,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Cruise_name,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Cruise_start_date,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Data_Distributor,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Data_Holding_centre,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Data_format,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Data_format_version,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Data_set_creation_date,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Data_set_name,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Data_size,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Database_reference,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Datum,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Depth_reference,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Discipline,['String'],[nan]
+SDC_BLS_DATA_TS_V1,EDMED_references,['String'],[nan]
+SDC_BLS_DATA_TS_V1,EDMO_CODE,['int'],[nan]
+SDC_BLS_DATA_TS_V1,End_date,['String'],[nan]
+SDC_BLS_DATA_TS_V1,End_time,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Frequency,['char'],[nan]
+SDC_BLS_DATA_TS_V1,Frequency_unit,['String'],[nan]
+SDC_BLS_DATA_TS_V1,ITS_90_water_temperature,['float'],[nan]
+SDC_BLS_DATA_TS_V1,Instrument_Info,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Instrument_gear_type,['String'],[nan]
+SDC_BLS_DATA_TS_V1,LOCAL_CDI_ID,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Maximum_instrument_depth,['float'],[nan]
+SDC_BLS_DATA_TS_V1,Measuring_area_type,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Minimum_instrument_depth,['float'],[nan]
+SDC_BLS_DATA_TS_V1,Originator,['String'],[nan]
+SDC_BLS_DATA_TS_V1,P01_Codes,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Platform_type,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Project_name,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Publication_references,['char'],[nan]
+SDC_BLS_DATA_TS_V1,Quality_flag_of_Depth,['byte'],[nan]
+SDC_BLS_DATA_TS_V1,Quality_flag_of_ITS_90_water_temperature,['byte'],[nan]
+SDC_BLS_DATA_TS_V1,Quality_flag_of_Water_body_salinity,['byte'],[nan]
+SDC_BLS_DATA_TS_V1,References,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Start_date,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Start_time,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Station,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Station_name,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Station_start_date,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Track_resolution,['char'],[nan]
+SDC_BLS_DATA_TS_V1,Track_resolution_unit,['char'],[nan]
+SDC_BLS_DATA_TS_V1,Type,['char'],[nan]
+SDC_BLS_DATA_TS_V1,Variables_measured,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Vertical_resolution,['char'],[nan]
+SDC_BLS_DATA_TS_V1,Vertical_resolution_unit,['String'],[nan]
+SDC_BLS_DATA_TS_V1,Water_body_salinity,['float'],[nan]
+SDC_BLS_DATA_TS_V1,Water_depth,['float'],[nan]
+SDC_BLS_DATA_TS_V1,depth,['float'],[nan]
+SDC_BLS_DATA_TS_V1,latitude,['float'],[nan]
+SDC_BLS_DATA_TS_V1,longitude,['float'],[nan]
+SDC_BLS_DATA_TS_V1,time,['double'],[nan]
+SDC_GLO_AGG_V2,depth,['double'],[nan]
+SDC_GLO_AGG_V2,depth_qc,['byte'],[nan]
+SDC_GLO_AGG_V2,latitude,['float'],[nan]
+SDC_GLO_AGG_V2,longitude,['float'],[nan]
+SDC_GLO_AGG_V2,obs_date_qc,['byte'],[nan]
+SDC_GLO_AGG_V2,platform,['String'],[nan]
+SDC_GLO_AGG_V2,position_qc,['byte'],[nan]
+SDC_GLO_AGG_V2,psal,['double'],[nan]
+SDC_GLO_AGG_V2,psal_qc,['byte'],[nan]
+SDC_GLO_AGG_V2,station_id,['int'],[nan]
+SDC_GLO_AGG_V2,temp,['double'],[nan]
+SDC_GLO_AGG_V2,temp_qc,['byte'],[nan]
+SDC_GLO_AGG_V2,time,['double'],[nan]
+SDC_GLO_AGG_V2,type,['String'],[nan]
+SDC_GLO_CLIM_TS_V1_1,Salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V1_1,Salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V1_1,Salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V1_1,Salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V1_1,Temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V1_1,Temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V1_1,Temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V1_1,Temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V1_2,Salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V1_2,Salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V1_2,Salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V1_2,Salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V1_2,Temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V1_2,Temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V1_2,Temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V1_2,Temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V2_1,Salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V2_1,Salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V2_1,Salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V2_1,Salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V2_1,Temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V2_1,Temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V2_1,Temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V2_1,Temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V2_2,Salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V2_2,Salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V2_2,Salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V2_2,Salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V2_2,Temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V2_2,Temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V2_2,Temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_GLO_CLIM_TS_V2_2,Temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_AGG_V2,depth,['double'],[nan]
+SDC_MED_AGG_V2,depth_qc,['byte'],[nan]
+SDC_MED_AGG_V2,latitude,['float'],[nan]
+SDC_MED_AGG_V2,longitude,['float'],[nan]
+SDC_MED_AGG_V2,obs_date_qc,['byte'],[nan]
+SDC_MED_AGG_V2,platform,['String'],[nan]
+SDC_MED_AGG_V2,position_qc,['byte'],[nan]
+SDC_MED_AGG_V2,psal,['double'],[nan]
+SDC_MED_AGG_V2,psal_qc,['byte'],[nan]
+SDC_MED_AGG_V2,station_id,['int'],[nan]
+SDC_MED_AGG_V2,temp,['double'],[nan]
+SDC_MED_AGG_V2,temp_qc,['byte'],[nan]
+SDC_MED_AGG_V2,time,['double'],[nan]
+SDC_MED_CLIM_TS_V1_m,Salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V1_m,Salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V1_m,Salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V1_m,Salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V1_m,Temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V1_m,Temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V1_m,Temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V1_m,Temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V1_s,Salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V1_s,Salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V1_s,Salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V1_s,Salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V1_s,Temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V1_s,Temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V1_s,Temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V1_s,Temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_m_pre_post_emt,Salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_m_pre_post_emt,Salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_m_pre_post_emt,Salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_m_pre_post_emt,Salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_m_pre_post_emt,Temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_m_pre_post_emt,Temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_m_pre_post_emt,Temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_m_pre_post_emt,Temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_m_whole_period,Salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_m_whole_period,Salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_m_whole_period,Salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_m_whole_period,Salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_m_whole_period,Temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_m_whole_period,Temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_m_whole_period,Temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_m_whole_period,Temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_decades,Salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_decades,Salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_decades,Salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_decades,Salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_decades,Temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_decades,Temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_decades,Temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_decades,Temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_pre_post_emt,Salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_pre_post_emt,Salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_pre_post_emt,Salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_pre_post_emt,Salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_pre_post_emt,Temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_pre_post_emt,Temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_pre_post_emt,Temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_pre_post_emt,Temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_whole_period,Salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_whole_period,Salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_whole_period,Salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_whole_period,Salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_whole_period,Temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_whole_period,Temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_whole_period,Temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_MED_CLIM_TS_V2_s_whole_period,Temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_NATL_AGG_V2,depth,['double'],[nan]
+SDC_NATL_AGG_V2,depth_qc,['byte'],[nan]
+SDC_NATL_AGG_V2,latitude,['float'],[nan]
+SDC_NATL_AGG_V2,longitude,['float'],[nan]
+SDC_NATL_AGG_V2,obs_date_qc,['byte'],[nan]
+SDC_NATL_AGG_V2,platform,['String'],[nan]
+SDC_NATL_AGG_V2,position_qc,['byte'],[nan]
+SDC_NATL_AGG_V2,psal,['double'],[nan]
+SDC_NATL_AGG_V2,psal_qc,['byte'],[nan]
+SDC_NATL_AGG_V2,station_id,['int'],[nan]
+SDC_NATL_AGG_V2,temp,['double'],[nan]
+SDC_NATL_AGG_V2,temp_qc,['byte'],[nan]
+SDC_NATL_AGG_V2,time,['double'],[nan]
+SDC_NATL_AGG_V2,type,['String'],[nan]
+SDC_NAT_CLIM_TS_V1_025_m,Salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_m,Salinity_CLfield,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_m,Salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_m,Salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_m,Salinity_databins,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_m,Salinity_err,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_m,Salinity_outlbins,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_m,Salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_m,Temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_m,Temperature_CLfield,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_m,Temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_m,Temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_m,Temperature_databins,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_m,Temperature_err,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_m,Temperature_outlbins,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_m,Temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_s,Salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_s,Salinity_CLfield,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_s,Salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_s,Salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_s,Salinity_databins,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_s,Salinity_err,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_s,Salinity_outlbins,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_s,Salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_s,Temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_s,Temperature_CLfield,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_s,Temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_s,Temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_s,Temperature_databins,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_s,Temperature_err,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_s,Temperature_outlbins,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_025_s,Temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_m,Salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_m,Salinity_CLfield,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_m,Salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_m,Salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_m,Salinity_databins,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_m,Salinity_err,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_m,Salinity_outlbins,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_m,Salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_m,Temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_m,Temperature_CLfield,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_m,Temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_m,Temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_m,Temperature_databins,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_m,Temperature_err,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_m,Temperature_outlbins,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_m,Temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_s,Salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_s,Salinity_CLfield,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_s,Salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_s,Salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_s,Salinity_databins,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_s,Salinity_err,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_s,Salinity_outlbins,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_s,Salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_s,Temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_s,Temperature_CLfield,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_s,Temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_s,Temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_s,Temperature_databins,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_s,Temperature_err,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_s,Temperature_outlbins,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V1_050_s,Temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V2_050_m,Salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V2_050_m,Salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V2_050_m,Salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V2_050_m,Salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V2_050_m,Temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V2_050_m,Temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V2_050_m,Temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V2_050_m,Temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V2_050_s,Salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V2_050_s,Salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V2_050_s,Salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V2_050_s,Salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V2_050_s,Temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V2_050_s,Temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V2_050_s,Temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_NAT_CLIM_TS_V2_050_s,Temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_NS_CLIM_TS_V1_m,Salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_NS_CLIM_TS_V1_m,Salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_NS_CLIM_TS_V1_m,Salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_NS_CLIM_TS_V1_m,Salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_NS_CLIM_TS_V1_m,Temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_NS_CLIM_TS_V1_m,Temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_NS_CLIM_TS_V1_m,Temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_NS_CLIM_TS_V1_m,Temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_NS_CLIM_TS_V1_s,Salinity,['float'],"['time, depth, latitude, longitude']"
+SDC_NS_CLIM_TS_V1_s,Salinity_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_NS_CLIM_TS_V1_s,Salinity_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_NS_CLIM_TS_V1_s,Salinity_relerr,['float'],"['time, depth, latitude, longitude']"
+SDC_NS_CLIM_TS_V1_s,Temperature,['float'],"['time, depth, latitude, longitude']"
+SDC_NS_CLIM_TS_V1_s,Temperature_L1,['float'],"['time, depth, latitude, longitude']"
+SDC_NS_CLIM_TS_V1_s,Temperature_L2,['float'],"['time, depth, latitude, longitude']"
+SDC_NS_CLIM_TS_V1_s,Temperature_relerr,['float'],"['time, depth, latitude, longitude']"
+SST_Anomalies_Caledonie,analysed_sst,['double'],"['time, latitude, longitude']"
+allDatasets,MakeAGraph,['String'],[nan]
+allDatasets,accessible,['String'],[nan]
+allDatasets,cdm_data_type,['String'],[nan]
+allDatasets,class,['String'],[nan]
+allDatasets,dataStructure,['String'],[nan]
+allDatasets,datasetID,['String'],[nan]
+allDatasets,email,['String'],[nan]
+allDatasets,fgdc,['String'],[nan]
+allDatasets,files,['String'],[nan]
+allDatasets,griddap,['String'],[nan]
+allDatasets,infoUrl,['String'],[nan]
+allDatasets,institution,['String'],[nan]
+allDatasets,iso19115,['String'],[nan]
+allDatasets,latitudeSpacing,['double'],[nan]
+allDatasets,longitudeSpacing,['double'],[nan]
+allDatasets,maxAltitude,['double'],[nan]
+allDatasets,maxLatitude,['double'],[nan]
+allDatasets,maxLongitude,['double'],[nan]
+allDatasets,maxTime,['double'],[nan]
+allDatasets,metadata,['String'],[nan]
+allDatasets,minAltitude,['double'],[nan]
+allDatasets,minLatitude,['double'],[nan]
+allDatasets,minLongitude,['double'],[nan]
+allDatasets,minTime,['double'],[nan]
+allDatasets,outOfDate,['float'],[nan]
+allDatasets,rss,['String'],[nan]
+allDatasets,sos,['String'],[nan]
+allDatasets,sourceUrl,['String'],[nan]
+allDatasets,subset,['String'],[nan]
+allDatasets,summary,['String'],[nan]
+allDatasets,tabledap,['String'],[nan]
+allDatasets,testOutOfDate,['String'],[nan]
+allDatasets,timeSpacing,['double'],[nan]
+allDatasets,title,['String'],[nan]
+allDatasets,wcs,['String'],[nan]
+allDatasets,wms,['String'],[nan]
+ariane_trajectories_qualitative,final_age,['double'],[nan]
+ariane_trajectories_qualitative,final_t,['double'],[nan]
+ariane_trajectories_qualitative,final_transp,['double'],[nan]
+ariane_trajectories_qualitative,final_x,['double'],[nan]
+ariane_trajectories_qualitative,final_y,['double'],[nan]
+ariane_trajectories_qualitative,final_z,['double'],[nan]
+ariane_trajectories_qualitative,init_age,['double'],[nan]
+ariane_trajectories_qualitative,init_t,['double'],[nan]
+ariane_trajectories_qualitative,init_transp,['double'],[nan]
+ariane_trajectories_qualitative,init_x,['double'],[nan]
+ariane_trajectories_qualitative,init_y,['double'],[nan]
+ariane_trajectories_qualitative,init_z,['double'],[nan]
+coast_status,d_covered_zone,['float'],[nan]
+coast_status,ptc_distance,['float'],[nan]
+coast_status,ptc_id,['uint'],[nan]
+coast_status,river_index,['short'],[nan]
+coast_status,stranding_age,['short'],[nan]
+coast_status,stranding_iT,['float'],[nan]
+coast_status,stranding_jT,['float'],[nan]
+coast_status,stranding_zone,['short'],[nan]
+coast_status,time,['double'],[nan]
+copernicus-fos,DATA_MODE,['char'],[nan]
+copernicus-fos,DC_REFERENCE,['String'],[nan]
+copernicus-fos,DEPH_QC,['byte'],[nan]
+copernicus-fos,DIRECTION,['char'],[nan]
+copernicus-fos,DOXY,['float'],[nan]
+copernicus-fos,DOXY_QC,['byte'],[nan]
+copernicus-fos,FLUO,['float'],[nan]
+copernicus-fos,FLUO_QC,['byte'],[nan]
+copernicus-fos,OSAT,['float'],[nan]
+copernicus-fos,OSAT_QC,['byte'],[nan]
+copernicus-fos,PSAL,['float'],[nan]
+copernicus-fos,PSAL_QC,['byte'],[nan]
+copernicus-fos,TEMP,['float'],[nan]
+copernicus-fos,TEMP_QC,['byte'],[nan]
+copernicus-fos,TIME_QC,['byte'],[nan]
+copernicus-fos,TUR4,['float'],[nan]
+copernicus-fos,TUR4_QC,['byte'],[nan]
+copernicus-fos,depth,['float'],[nan]
+copernicus-fos,latitude,['float'],[nan]
+copernicus-fos,longitude,['float'],[nan]
+copernicus-fos,platform_name,['String'],[nan]
+copernicus-fos,time,['double'],[nan]
+drifter_6hour_qc,BuoyTypeManufacturer,['String'],[nan]
+drifter_6hour_qc,BuoyTypeSensorArray,['String'],[nan]
+drifter_6hour_qc,DeployingCountry,['String'],[nan]
+drifter_6hour_qc,DeployingShip,['String'],[nan]
+drifter_6hour_qc,DeploymentComments,['String'],[nan]
+drifter_6hour_qc,DeploymentStatus,['String'],[nan]
+drifter_6hour_qc,DragAreaAboveDrogue,['String'],[nan]
+drifter_6hour_qc,DragAreaOfDrogue,['String'],[nan]
+drifter_6hour_qc,DragAreaRatio,['String'],[nan]
+drifter_6hour_qc,DrogueBallast,['String'],[nan]
+drifter_6hour_qc,DrogueCenterDepth,['String'],[nan]
+drifter_6hour_qc,DrogueDetectSensor,['String'],[nan]
+drifter_6hour_qc,DrogueLength,['String'],[nan]
+drifter_6hour_qc,DrogueType,['String'],[nan]
+drifter_6hour_qc,FloatDiameter,['String'],[nan]
+drifter_6hour_qc,ID,['String'],[nan]
+drifter_6hour_qc,ManufactureMonth,['String'],[nan]
+drifter_6hour_qc,ManufactureYear,['String'],[nan]
+drifter_6hour_qc,PurchaserFunding,['String'],[nan]
+drifter_6hour_qc,SensorUpgrade,['String'],[nan]
+drifter_6hour_qc,SubsfcFloatPresence,['String'],[nan]
+drifter_6hour_qc,Transmissions,['String'],[nan]
+drifter_6hour_qc,WMO,['int'],[nan]
+drifter_6hour_qc,deploy_date,['double'],[nan]
+drifter_6hour_qc,deploy_lat,['double'],[nan]
+drifter_6hour_qc,deploy_lon,['double'],[nan]
+drifter_6hour_qc,drogue_lost_date,['double'],[nan]
+drifter_6hour_qc,end_date,['double'],[nan]
+drifter_6hour_qc,end_lat,['double'],[nan]
+drifter_6hour_qc,end_lon,['double'],[nan]
+drifter_6hour_qc,err_lat,['double'],[nan]
+drifter_6hour_qc,err_lon,['double'],[nan]
+drifter_6hour_qc,err_sst,['double'],[nan]
+drifter_6hour_qc,expno,['int'],[nan]
+drifter_6hour_qc,latitude,['double'],[nan]
+drifter_6hour_qc,lon360,['double'],[nan]
+drifter_6hour_qc,longitude,['double'],[nan]
+drifter_6hour_qc,sst,['double'],[nan]
+drifter_6hour_qc,start_date,['double'],[nan]
+drifter_6hour_qc,start_lat,['double'],[nan]
+drifter_6hour_qc,start_lon,['float'],[nan]
+drifter_6hour_qc,time,['double'],[nan]
+drifter_6hour_qc,typebuoy,['String'],[nan]
+drifter_6hour_qc,typedeath,['int'],[nan]
+drifter_6hour_qc,ve,['double'],[nan]
+drifter_6hour_qc,vn,['double'],[nan]
+drifter_hourly_qc,BuoyTypeManufacturer,['String'],[nan]
+drifter_hourly_qc,BuoyTypeSensorArray,['String'],[nan]
+drifter_hourly_qc,DeployingCountry,['String'],[nan]
+drifter_hourly_qc,DeployingShip,['String'],[nan]
+drifter_hourly_qc,DeploymentComments,['String'],[nan]
+drifter_hourly_qc,DeploymentStatus,['String'],[nan]
+drifter_hourly_qc,DragAreaAboveDrogue,['String'],[nan]
+drifter_hourly_qc,DragAreaOfDrogue,['String'],[nan]
+drifter_hourly_qc,DragAreaRatio,['String'],[nan]
+drifter_hourly_qc,DrogueBallast,['String'],[nan]
+drifter_hourly_qc,DrogueCenterDepth,['String'],[nan]
+drifter_hourly_qc,DrogueDetectSensor,['String'],[nan]
+drifter_hourly_qc,DrogueLength,['String'],[nan]
+drifter_hourly_qc,DrogueType,['String'],[nan]
+drifter_hourly_qc,FloatDiameter,['String'],[nan]
+drifter_hourly_qc,ID,['String'],[nan]
+drifter_hourly_qc,ManufactureMonth,['String'],[nan]
+drifter_hourly_qc,ManufactureYear,['String'],[nan]
+drifter_hourly_qc,PurchaserFunding,['String'],[nan]
+drifter_hourly_qc,SensorUpgrade,['String'],[nan]
+drifter_hourly_qc,SubsfcFloatPresence,['String'],[nan]
+drifter_hourly_qc,Transmissions,['String'],[nan]
+drifter_hourly_qc,WMO,['int'],[nan]
+drifter_hourly_qc,deploy_date,['double'],[nan]
+drifter_hourly_qc,deploy_lat,['double'],[nan]
+drifter_hourly_qc,deploy_lon,['double'],[nan]
+drifter_hourly_qc,drogue_lost_date,['double'],[nan]
+drifter_hourly_qc,end_date,['double'],[nan]
+drifter_hourly_qc,end_lat,['double'],[nan]
+drifter_hourly_qc,end_lon,['double'],[nan]
+drifter_hourly_qc,err_lat,['float'],[nan]
+drifter_hourly_qc,err_lon,['float'],[nan]
+drifter_hourly_qc,err_sst,['double'],[nan]
+drifter_hourly_qc,err_sst1,['double'],[nan]
+drifter_hourly_qc,err_sst2,['double'],[nan]
+drifter_hourly_qc,err_ve,['float'],[nan]
+drifter_hourly_qc,err_vn,['float'],[nan]
+drifter_hourly_qc,expno,['int'],[nan]
+drifter_hourly_qc,flg_sst,['double'],[nan]
+drifter_hourly_qc,flg_sst1,['double'],[nan]
+drifter_hourly_qc,flg_sst2,['double'],[nan]
+drifter_hourly_qc,gap,['float'],[nan]
+drifter_hourly_qc,latitude,['float'],[nan]
+drifter_hourly_qc,location_type,['String'],[nan]
+drifter_hourly_qc,lon360,['float'],[nan]
+drifter_hourly_qc,longitude,['float'],[nan]
+drifter_hourly_qc,sst,['double'],[nan]
+drifter_hourly_qc,sst1,['double'],[nan]
+drifter_hourly_qc,sst2,['double'],[nan]
+drifter_hourly_qc,time,['double'],[nan]
+drifter_hourly_qc,typebuoy,['String'],[nan]
+drifter_hourly_qc,typedeath,['int'],[nan]
+drifter_hourly_qc,ve,['float'],[nan]
+drifter_hourly_qc,vn,['float'],[nan]
+gebco2021,elevation,['short'],"['latitude, longitude']"
+histo_coord,hist,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_release_time,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast_AMBON,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast_BARITO,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast_BATANG_HARI,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast_BATANG_KANDIS,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast_CILIWUNG,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast_CISADANE,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast_CITARUM,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast_DELI,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast_DIGUL,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast_JOGJA,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast_KAPUAS,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast_KAYAN,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast_MAHAKAM,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast_MAMBERAMO,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast_MUSI,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast_PELABUHAN_RATU,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast_SEMARANG,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast_SOLO,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast_SURABAYA,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast_TALLO,['ushort'],"['time, latitude, longitude']"
+histo_coord,hist_stop_coast_TELUK_BENOA,['ushort'],"['time, latitude, longitude']"
+traj_lonlat_init_t0,traj_iU_init_t0,['float'],"['frame, ntraj']"
+traj_lonlat_init_t0,traj_jV_init_t0,['float'],"['frame, ntraj']"
+traj_lonlat_init_t0,traj_lat_init_t0,['float'],"['frame, ntraj']"
+traj_lonlat_init_t0,traj_lon_init_t0,['float'],"['frame, ntraj']"
