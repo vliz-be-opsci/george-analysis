@@ -1,10 +1,10 @@
 DatasetID,Property,Count,Types,Example,UniqueValues
 allDatasets,datasetID,53,object,allDatasets,set()
-allDatasets,accessible,53,object,public,"{'log in', 'public'}"
+allDatasets,accessible,53,object,public,"{'public', 'log in'}"
 allDatasets,institution,53,object,Ifremer,set()
 allDatasets,dataStructure,53,object,table,"{'table', 'grid'}"
-allDatasets,cdm_data_type,53,object,Other,"{'TimeSeries', 'Profile', 'Other', 'TrajectoryProfile', 'Grid', 'Trajectory', 'Point'}"
-allDatasets,class,53,object,EDDTableFromAllDatasets,"{'EDDTableFromAsciiFiles', 'EDDTableFromAllDatasets', 'EDDGridFromNcFiles', 'EDDGridSideBySide', 'EDDTableFromMultidimNcFiles', 'EDDTableFromErddap', 'EDDTableFromNcFiles'}"
+allDatasets,cdm_data_type,53,object,Other,"{'Profile', 'Point', 'Grid', 'TimeSeries', 'Trajectory', 'TrajectoryProfile', 'Other'}"
+allDatasets,class,53,object,EDDTableFromAllDatasets,"{'EDDTableFromAllDatasets', 'EDDGridFromNcFiles', 'EDDTableFromMultidimNcFiles', 'EDDTableFromAsciiFiles', 'EDDTableFromNcFiles', 'EDDGridSideBySide', 'EDDTableFromErddap'}"
 allDatasets,title,53,object,* The List of All Active Datasets in this ERDDAP *,set()
 allDatasets,minLongitude (degrees_east),47,float64,-242.156,set()
 allDatasets,maxLongitude (degrees_east),47,float64,129.844,set()
@@ -24,14 +24,14 @@ allDatasets,MakeAGraph,52,object,https://erddap.ifremer.fr/erddap/tabledap/allDa
 allDatasets,sos,0,float64,,set()
 allDatasets,wcs,0,float64,,set()
 allDatasets,wms,32,object,https://erddap.ifremer.fr/erddap/wms/OACP-Argo-Global/request,set()
-allDatasets,files,7,object,https://erddap.ifremer.fr/erddap/files/drifter_hourly_qc/,"{'https://erddap.ifremer.fr/erddap/files/histo_coord/', 'https://erddap.ifremer.fr/erddap/files/coast_status/', 'https://erddap.ifremer.fr/erddap/files/traj_lonlat_init_t0/', 'https://erddap.ifremer.fr/erddap/files/copernicus-fos/', 'https://erddap.ifremer.fr/erddap/files/drifter_hourly_qc/', 'https://erddap.ifremer.fr/erddap/files/ariane_trajectories_qualitative/', 'https://erddap.ifremer.fr/erddap/files/drifter_6hour_qc/'}"
+allDatasets,files,7,object,https://erddap.ifremer.fr/erddap/files/drifter_hourly_qc/,"{'https://erddap.ifremer.fr/erddap/files/traj_lonlat_init_t0/', 'https://erddap.ifremer.fr/erddap/files/copernicus-fos/', 'https://erddap.ifremer.fr/erddap/files/coast_status/', 'https://erddap.ifremer.fr/erddap/files/drifter_hourly_qc/', 'https://erddap.ifremer.fr/erddap/files/histo_coord/', 'https://erddap.ifremer.fr/erddap/files/ariane_trajectories_qualitative/', 'https://erddap.ifremer.fr/erddap/files/drifter_6hour_qc/'}"
 allDatasets,fgdc,47,object,https://erddap.ifremer.fr/erddap/metadata/fgdc/xml/OACP-Argo-Global_fgdc.xml,set()
 allDatasets,iso19115,47,object,https://erddap.ifremer.fr/erddap/metadata/iso19115/xml/OACP-Argo-Global_iso19115.xml,set()
 allDatasets,metadata,52,object,https://erddap.ifremer.fr/erddap/info/allDatasets/index,set()
-allDatasets,sourceUrl,52,object,https://erddap.ifremer.fr/erddap,"{'ftp://ftp.ifremer.fr/ifremer/argo/ar_index_global_prof.txt', 'https://erddap.ifremer.fr/erddap', '(local files)'}"
+allDatasets,sourceUrl,52,object,https://erddap.ifremer.fr/erddap,"{'(local files)', 'https://erddap.ifremer.fr/erddap', 'ftp://ftp.ifremer.fr/ifremer/argo/ar_index_global_prof.txt'}"
 allDatasets,infoUrl,52,object,https://erddap.ifremer.fr/erddap,set()
 allDatasets,rss,52,object,https://erddap.ifremer.fr/erddap/rss/allDatasets.rss,set()
 allDatasets,email,52,object,https://erddap.ifremer.fr/erddap/subscriptions/add.html?datasetID=allDatasets&showErrors=false&email=,set()
-allDatasets,testOutOfDate,5,object,now-5days,"{'now-16days', 'now-44days', 'now-109days', 'now-5days'}"
-allDatasets,outOfDate,5,float64,1.4082453,"{1.4082453, 3.174947, 4.3259068, 36.30247, 8.972534}"
+allDatasets,testOutOfDate,5,object,now-5days,"{'now-109days', 'now-16days', 'now-44days', 'now-5days'}"
+allDatasets,outOfDate,5,float64,1.1795859,"{1.1795859, 3.30843, 4.6929855, 36.66956, 9.026417}"
 allDatasets,summary,53,object,This dataset is a table which has a row of information for each dataset currently active in this ERDDAP.,set()

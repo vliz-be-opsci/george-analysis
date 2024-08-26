@@ -1,131 +1,131 @@
-Row Type,Attribute Name,Data Type,Value
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
-1,0,1,1
+DatasetID,Variable Name,Data Type,Value
+HF_75c7_5b60_95d8,depth,['short'],"['nValues=1, onlyValue=0.0']"
+HF_75c7_5b60_95d8,latitude,['float'],"['nValues=29, evenlySpaced=true, averageSpacing=0.04499999999999993']"
+HF_75c7_5b60_95d8,longitude,['float'],"['nValues=33, evenlySpaced=true, averageSpacing=0.062287062500000004']"
+HF_75c7_5b60_95d8,time,['double'],"['nValues=40240, evenlySpaced=false, averageSpacing=1h 12m 18s']"
+HF_ac49_84ad_3eb6,depth,['short'],"['nValues=1, onlyValue=0.0']"
+HF_ac49_84ad_3eb6,latitude,['float'],"['nValues=113, evenlySpaced=true, averageSpacing=0.05377607142857142']"
+HF_ac49_84ad_3eb6,longitude,['float'],"['nValues=276, evenlySpaced=true, averageSpacing=0.1652301818181818']"
+HF_ac49_84ad_3eb6,time,['double'],"['nValues=8888, evenlySpaced=false, averageSpacing=4h 4m 26s']"
+OACP-Argo-Global,latitude,['double'],"['nValues=127, evenlySpaced=true, averageSpacing=1.0']"
+OACP-Argo-Global,longitude,['double'],"['nValues=373, evenlySpaced=true, averageSpacing=1.0']"
+OS_DYFAMED_1994-2014_D_TSO2,PRES,['float'],"['nValues=2489, evenlySpaced=true, averageSpacing=1.0']"
+OS_DYFAMED_1994-2014_D_TSO2,time,['double'],"['nValues=181, evenlySpaced=false, averageSpacing=41 days 22h 48m 9s']"
+SDC_BAL_CLIM_TS_V1_m,depth,['double'],"['nValues=29, evenlySpaced=false, averageSpacing=10.714285714285714']"
+SDC_BAL_CLIM_TS_V1_m,latitude,['double'],"['nValues=417, evenlySpaced=true, averageSpacing=0.03125']"
+SDC_BAL_CLIM_TS_V1_m,longitude,['double'],"['nValues=353, evenlySpaced=true, averageSpacing=0.0625']"
+SDC_BAL_CLIM_TS_V1_m,time,['double'],"['nValues=84, evenlySpaced=false, averageSpacing=224 days 1h 26m 45s']"
+SDC_BAL_CLIM_TS_V1_s,depth,['double'],"['nValues=29, evenlySpaced=false, averageSpacing=10.714285714285714']"
+SDC_BAL_CLIM_TS_V1_s,latitude,['double'],"['nValues=417, evenlySpaced=true, averageSpacing=0.03125']"
+SDC_BAL_CLIM_TS_V1_s,longitude,['double'],"['nValues=353, evenlySpaced=true, averageSpacing=0.0625']"
+SDC_BAL_CLIM_TS_V1_s,time,['double'],"['nValues=28, evenlySpaced=false, averageSpacing=686 days 12h 26m 40s']"
+SDC_BAL_CLIM_TS_V2_m,depth,['double'],"['nValues=29, evenlySpaced=false, averageSpacing=10.714285714285714']"
+SDC_BAL_CLIM_TS_V2_m,latitude,['double'],"['nValues=417, evenlySpaced=true, averageSpacing=0.03125']"
+SDC_BAL_CLIM_TS_V2_m,longitude,['double'],"['nValues=353, evenlySpaced=true, averageSpacing=0.0625']"
+SDC_BAL_CLIM_TS_V2_m,time,['double'],"['nValues=84, evenlySpaced=false, averageSpacing=232 days 20h 31m 48s']"
+SDC_BAL_CLIM_TS_V2_s,depth,['double'],"['nValues=29, evenlySpaced=false, averageSpacing=10.714285714285714']"
+SDC_BAL_CLIM_TS_V2_s,latitude,['double'],"['nValues=417, evenlySpaced=true, averageSpacing=0.03125']"
+SDC_BAL_CLIM_TS_V2_s,longitude,['double'],"['nValues=353, evenlySpaced=true, averageSpacing=0.0625']"
+SDC_BAL_CLIM_TS_V2_s,time,['double'],"['nValues=28, evenlySpaced=false, averageSpacing=713 days 13h 20m 0s']"
+SDC_BLS_CLIM_TS_V1_m,depth,['double'],"['nValues=67, evenlySpaced=false, averageSpacing=30.303030303030305']"
+SDC_BLS_CLIM_TS_V1_m,latitude,['double'],"['nValues=52, evenlySpaced=true, averageSpacing=0.125']"
+SDC_BLS_CLIM_TS_V1_m,longitude,['double'],"['nValues=116, evenlySpaced=true, averageSpacing=0.125']"
+SDC_BLS_CLIM_TS_V1_m,time,['double'],"['nValues=36, evenlySpaced=false, averageSpacing=343 days 11h 39m 26s']"
+SDC_BLS_CLIM_TS_V1_s,depth,['double'],"['nValues=67, evenlySpaced=false, averageSpacing=30.303030303030305']"
+SDC_BLS_CLIM_TS_V1_s,latitude,['double'],"['nValues=52, evenlySpaced=true, averageSpacing=0.125']"
+SDC_BLS_CLIM_TS_V1_s,longitude,['double'],"['nValues=116, evenlySpaced=true, averageSpacing=0.125']"
+SDC_BLS_CLIM_TS_V1_s,time,['double'],"['nValues=36, evenlySpaced=false, averageSpacing=550 days 10h 58m 17s']"
+SDC_BLS_CLIM_TS_V2_m,depth,['double'],"['nValues=67, evenlySpaced=false, averageSpacing=30.303030303030305']"
+SDC_BLS_CLIM_TS_V2_m,latitude,['double'],"['nValues=52, evenlySpaced=true, averageSpacing=0.125']"
+SDC_BLS_CLIM_TS_V2_m,longitude,['double'],"['nValues=116, evenlySpaced=true, averageSpacing=0.125']"
+SDC_BLS_CLIM_TS_V2_m,time,['double'],"['nValues=36, evenlySpaced=false, averageSpacing=353 days 21h 56m 34s']"
+SDC_BLS_CLIM_TS_V2_s,depth,['double'],"['nValues=67, evenlySpaced=false, averageSpacing=30.303030303030305']"
+SDC_BLS_CLIM_TS_V2_s,latitude,['double'],"['nValues=52, evenlySpaced=true, averageSpacing=0.125']"
+SDC_BLS_CLIM_TS_V2_s,longitude,['double'],"['nValues=116, evenlySpaced=true, averageSpacing=0.125']"
+SDC_BLS_CLIM_TS_V2_s,time,['double'],"['nValues=36, evenlySpaced=false, averageSpacing=560 days 21h 56m 34s']"
+SDC_GLO_CLIM_TS_V1_1,depth,['short'],"['nValues=44, evenlySpaced=true, averageSpacing=1.0']"
+SDC_GLO_CLIM_TS_V1_1,latitude,['double'],"['nValues=641, evenlySpaced=true, averageSpacing=0.25']"
+SDC_GLO_CLIM_TS_V1_1,longitude,['double'],"['nValues=1440, evenlySpaced=true, averageSpacing=0.25']"
+SDC_GLO_CLIM_TS_V1_1,time,['double'],"['nValues=12, evenlySpaced=false, averageSpacing=30 days 8h 43m 38s']"
+SDC_GLO_CLIM_TS_V1_2,depth,['short'],"['nValues=37, evenlySpaced=true, averageSpacing=1.0']"
+SDC_GLO_CLIM_TS_V1_2,latitude,['double'],"['nValues=641, evenlySpaced=true, averageSpacing=0.25']"
+SDC_GLO_CLIM_TS_V1_2,longitude,['double'],"['nValues=1440, evenlySpaced=true, averageSpacing=0.25']"
+SDC_GLO_CLIM_TS_V1_2,time,['double'],"['nValues=12, evenlySpaced=false, averageSpacing=30 days 8h 43m 38s']"
+SDC_GLO_CLIM_TS_V2_1,depth,['double'],"['nValues=45, evenlySpaced=false, averageSpacing=136.25']"
+SDC_GLO_CLIM_TS_V2_1,latitude,['double'],"['nValues=641, evenlySpaced=true, averageSpacing=0.25']"
+SDC_GLO_CLIM_TS_V2_1,longitude,['double'],"['nValues=1440, evenlySpaced=true, averageSpacing=0.25']"
+SDC_GLO_CLIM_TS_V2_1,time,['double'],"['nValues=12, evenlySpaced=false, averageSpacing=30 days 8h 43m 38s']"
+SDC_GLO_CLIM_TS_V2_2,depth,['double'],"['nValues=36, evenlySpaced=false, averageSpacing=54.142857142857146']"
+SDC_GLO_CLIM_TS_V2_2,latitude,['double'],"['nValues=641, evenlySpaced=true, averageSpacing=0.25']"
+SDC_GLO_CLIM_TS_V2_2,longitude,['double'],"['nValues=1440, evenlySpaced=true, averageSpacing=0.25']"
+SDC_GLO_CLIM_TS_V2_2,time,['double'],"['nValues=12, evenlySpaced=false, averageSpacing=30 days 8h 43m 38s']"
+SDC_MED_CLIM_TS_V1_m,depth,['double'],"['nValues=92, evenlySpaced=false, averageSpacing=49.45054945054945']"
+SDC_MED_CLIM_TS_V1_m,latitude,['double'],"['nValues=129, evenlySpaced=true, averageSpacing=0.125']"
+SDC_MED_CLIM_TS_V1_m,longitude,['double'],"['nValues=367, evenlySpaced=true, averageSpacing=0.125']"
+SDC_MED_CLIM_TS_V1_m,time,['double'],"['nValues=24, evenlySpaced=false, averageSpacing=522 days 16h 41m 44s']"
+SDC_MED_CLIM_TS_V1_s,depth,['double'],"['nValues=92, evenlySpaced=false, averageSpacing=49.45054945054945']"
+SDC_MED_CLIM_TS_V1_s,latitude,['double'],"['nValues=129, evenlySpaced=true, averageSpacing=0.125']"
+SDC_MED_CLIM_TS_V1_s,longitude,['double'],"['nValues=367, evenlySpaced=true, averageSpacing=0.125']"
+SDC_MED_CLIM_TS_V1_s,time,['double'],"['nValues=24, evenlySpaced=false, averageSpacing=837 days 15h 39m 8s']"
+SDC_MED_CLIM_TS_V2_m_pre_post_emt,depth,['double'],"['nValues=92, evenlySpaced=false, averageSpacing=49.45054945054945']"
+SDC_MED_CLIM_TS_V2_m_pre_post_emt,latitude,['double'],"['nValues=129, evenlySpaced=true, averageSpacing=0.125']"
+SDC_MED_CLIM_TS_V2_m_pre_post_emt,longitude,['double'],"['nValues=367, evenlySpaced=true, averageSpacing=0.125']"
+SDC_MED_CLIM_TS_V2_m_pre_post_emt,time,['double'],"['nValues=24, evenlySpaced=false, averageSpacing=522 days 16h 41m 44s']"
+SDC_MED_CLIM_TS_V2_m_whole_period,depth,['double'],"['nValues=92, evenlySpaced=false, averageSpacing=49.45054945054945']"
+SDC_MED_CLIM_TS_V2_m_whole_period,latitude,['double'],"['nValues=129, evenlySpaced=true, averageSpacing=0.125']"
+SDC_MED_CLIM_TS_V2_m_whole_period,longitude,['double'],"['nValues=367, evenlySpaced=true, averageSpacing=0.125']"
+SDC_MED_CLIM_TS_V2_m_whole_period,time,['double'],"['nValues=12, evenlySpaced=false, averageSpacing=30 days 8h 43m 38s']"
+SDC_MED_CLIM_TS_V2_s_decades,depth,['double'],"['nValues=92, evenlySpaced=false, averageSpacing=49.45054945054945']"
+SDC_MED_CLIM_TS_V2_s_decades,latitude,['double'],"['nValues=129, evenlySpaced=true, averageSpacing=0.125']"
+SDC_MED_CLIM_TS_V2_s_decades,longitude,['double'],"['nValues=367, evenlySpaced=true, averageSpacing=0.125']"
+SDC_MED_CLIM_TS_V2_s_decades,time,['double'],"['nValues=24, evenlySpaced=false, averageSpacing=837 days 15h 39m 8s']"
+SDC_MED_CLIM_TS_V2_s_pre_post_emt,depth,['double'],"['nValues=92, evenlySpaced=false, averageSpacing=49.45054945054945']"
+SDC_MED_CLIM_TS_V2_s_pre_post_emt,latitude,['double'],"['nValues=129, evenlySpaced=true, averageSpacing=0.125']"
+SDC_MED_CLIM_TS_V2_s_pre_post_emt,longitude,['double'],"['nValues=367, evenlySpaced=true, averageSpacing=0.125']"
+SDC_MED_CLIM_TS_V2_s_pre_post_emt,time,['double'],"['nValues=8, evenlySpaced=false, averageSpacing=1708 days 17h 8m 34s']"
+SDC_MED_CLIM_TS_V2_s_whole_period,depth,['double'],"['nValues=92, evenlySpaced=false, averageSpacing=49.45054945054945']"
+SDC_MED_CLIM_TS_V2_s_whole_period,latitude,['double'],"['nValues=129, evenlySpaced=true, averageSpacing=0.125']"
+SDC_MED_CLIM_TS_V2_s_whole_period,longitude,['double'],"['nValues=367, evenlySpaced=true, averageSpacing=0.125']"
+SDC_MED_CLIM_TS_V2_s_whole_period,time,['double'],"['nValues=4, evenlySpaced=false, averageSpacing=91 days']"
+SDC_NAT_CLIM_TS_V1_025_m,depth,['float'],"['nValues=107, evenlySpaced=false, averageSpacing=-56.60377358490566']"
+SDC_NAT_CLIM_TS_V1_025_m,latitude,['float'],"['nValues=209, evenlySpaced=true, averageSpacing=0.25']"
+SDC_NAT_CLIM_TS_V1_025_m,longitude,['float'],"['nValues=389, evenlySpaced=true, averageSpacing=0.25']"
+SDC_NAT_CLIM_TS_V1_025_m,time,['double'],"['nValues=72, evenlySpaced=false, averageSpacing=261 days 22h 18m 35s']"
+SDC_NAT_CLIM_TS_V1_025_s,depth,['float'],"['nValues=107, evenlySpaced=false, averageSpacing=-56.60377358490566']"
+SDC_NAT_CLIM_TS_V1_025_s,latitude,['float'],"['nValues=209, evenlySpaced=true, averageSpacing=0.25']"
+SDC_NAT_CLIM_TS_V1_025_s,longitude,['float'],"['nValues=389, evenlySpaced=true, averageSpacing=0.25']"
+SDC_NAT_CLIM_TS_V1_025_s,time,['double'],"['nValues=24, evenlySpaced=false, averageSpacing=805 days 21h 54m 47s']"
+SDC_NAT_CLIM_TS_V1_050_m,depth,['float'],"['nValues=107, evenlySpaced=false, averageSpacing=-56.60377358490566']"
+SDC_NAT_CLIM_TS_V1_050_m,latitude,['float'],"['nValues=105, evenlySpaced=true, averageSpacing=0.5']"
+SDC_NAT_CLIM_TS_V1_050_m,longitude,['float'],"['nValues=195, evenlySpaced=true, averageSpacing=0.5']"
+SDC_NAT_CLIM_TS_V1_050_m,time,['double'],"['nValues=72, evenlySpaced=false, averageSpacing=261 days 22h 18m 35s']"
+SDC_NAT_CLIM_TS_V1_050_s,depth,['float'],"['nValues=107, evenlySpaced=false, averageSpacing=-56.60377358490566']"
+SDC_NAT_CLIM_TS_V1_050_s,latitude,['float'],"['nValues=105, evenlySpaced=true, averageSpacing=0.5']"
+SDC_NAT_CLIM_TS_V1_050_s,longitude,['float'],"['nValues=195, evenlySpaced=true, averageSpacing=0.5']"
+SDC_NAT_CLIM_TS_V1_050_s,time,['double'],"['nValues=24, evenlySpaced=false, averageSpacing=805 days 21h 54m 47s']"
+SDC_NAT_CLIM_TS_V2_050_m,depth,['double'],"['nValues=65, evenlySpaced=false, averageSpacing=31.25']"
+SDC_NAT_CLIM_TS_V2_050_m,latitude,['double'],"['nValues=111, evenlySpaced=true, averageSpacing=0.5']"
+SDC_NAT_CLIM_TS_V2_050_m,longitude,['double'],"['nValues=211, evenlySpaced=true, averageSpacing=0.5']"
+SDC_NAT_CLIM_TS_V2_050_m,time,['double'],"['nValues=84, evenlySpaced=false, averageSpacing=268 days 1h 26m 45s']"
+SDC_NAT_CLIM_TS_V2_050_s,depth,['double'],"['nValues=65, evenlySpaced=false, averageSpacing=31.25']"
+SDC_NAT_CLIM_TS_V2_050_s,latitude,['double'],"['nValues=111, evenlySpaced=true, averageSpacing=0.5']"
+SDC_NAT_CLIM_TS_V2_050_s,longitude,['double'],"['nValues=211, evenlySpaced=true, averageSpacing=0.5']"
+SDC_NAT_CLIM_TS_V2_050_s,time,['double'],"['nValues=28, evenlySpaced=false, averageSpacing=821 days 18h 40m 0s']"
+SDC_NS_CLIM_TS_V1_m,depth,['double'],"['nValues=41, evenlySpaced=false, averageSpacing=17.5']"
+SDC_NS_CLIM_TS_V1_m,latitude,['double'],"['nValues=109, evenlySpaced=true, averageSpacing=0.125']"
+SDC_NS_CLIM_TS_V1_m,longitude,['double'],"['nValues=113, evenlySpaced=true, averageSpacing=0.125']"
+SDC_NS_CLIM_TS_V1_m,time,['double'],"['nValues=12, evenlySpaced=false, averageSpacing=30 days 10h 54m 33s']"
+SDC_NS_CLIM_TS_V1_s,depth,['double'],"['nValues=41, evenlySpaced=false, averageSpacing=17.5']"
+SDC_NS_CLIM_TS_V1_s,latitude,['double'],"['nValues=109, evenlySpaced=true, averageSpacing=0.125']"
+SDC_NS_CLIM_TS_V1_s,longitude,['double'],"['nValues=113, evenlySpaced=true, averageSpacing=0.125']"
+SDC_NS_CLIM_TS_V1_s,time,['double'],"['nValues=24, evenlySpaced=false, averageSpacing=805 days 21h 54m 47s']"
+SST_Anomalies_Caledonie,latitude,['float'],"['nValues=1300, evenlySpaced=true, averageSpacing=0.01']"
+SST_Anomalies_Caledonie,longitude,['float'],"['nValues=2001, evenlySpaced=true, averageSpacing=0.01']"
+SST_Anomalies_Caledonie,time,['double'],"['nValues=96, evenlySpaced=false, averageSpacing=30 days 10h 21m 28s']"
+gebco2021,latitude,['double'],"['nValues=43200, evenlySpaced=true, averageSpacing=0.004166666666666667']"
+gebco2021,longitude,['double'],"['nValues=86400, evenlySpaced=true, averageSpacing=0.004166666666666667']"
+histo_coord,latitude,['float'],"['nValues=720, evenlySpaced=false, averageSpacing=0.08333378303198886']"
+histo_coord,longitude,['float'],"['nValues=660, evenlySpaced=false, averageSpacing=0.08333383915022761']"
+histo_coord,time,['double'],"['nValues=1521, evenlySpaced=true, averageSpacing=1 day 0h 0m 57s']"
+traj_lonlat_init_t0,frame,['int'],"['nValues=1522, evenlySpaced=true, averageSpacing=1.0']"
+traj_lonlat_init_t0,ntraj,['int'],"['nValues=1889841, evenlySpaced=true, averageSpacing=1.0']"
