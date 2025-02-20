@@ -30,10 +30,13 @@ before assessing the interoperability, it is important to distinguish between th
 
 ### Technical interoperability
 Ensures that different systems and platforms can communicate using standardized data formats, protocols, and interfaces.
+~ considers: API accessibility, Authentication & Access control 
 ### Syntactic Interoperability
 Ensures that data exchanged follows common structures and encoding formats.
+~considers: Data formats that exist/are used across services
 ### Semantic interoperability 
 Ensures that the meaning of data is preserved and correctly interpreted across systems.
+~ considers: metadata compatibility (&completeness) 
 
 ## Assessment of interoperability:
 Both qualitative and quantitative approaches can be applied to evaluate/assess interoperability, and consequently identify areas of improvement.
@@ -46,11 +49,6 @@ a.o. includes assessment of:
 - Assessing how marine datasets are documented, curated, and made accessible.
 - Investigating barriers to usability, such as differences in data formats, temporal/spatial resolutions, and sensor calibration methods.
 - Evaluating data-sharing policies.
-
-Example Use Cases:
-- Understanding data-sharing barriers between a national oceanographic institute and an international marine research collaboration.
-- Evaluating how well different marine sensor networks (e.g., moored buoys, autonomous underwater vehicles) can integrate data into a common database.
-
 
 ### Quantitative
 A quantitative approach focuses on measuring interoperability efficiency, performance, and compliance using metrics and data-driven evaluations.
@@ -67,6 +65,8 @@ Example Use Cases:
 
 ### Hybrid assessment
 Both approaches are valuable for assessing interoperability. A qualitative approach is useful for exploring challenges and strategic improvements, while a quantitative approach is essential for tracking progress and proving effectiveness with data. A hybrid approach—combining both—can provide the most comprehensive evaluation.
+
+--> ToDo: include reference to notebooks & their main assessment approach ...
 
 
 ## Implementation of interoperability  
@@ -91,7 +91,6 @@ Characteristics:
 - Risk of being disconnected from real-world user needs.
 - May face resistance from stakeholders who prefer flexibility.
 
-
 ### Bottom-Up
 
 Characteristics:
@@ -115,6 +114,21 @@ Characteristics:
 ### Hybrid approach
 Many industries use a hybrid approach, where top-down regulations provide structure while bottom-up innovation drives practical solutions.
 
+--> frameworks considered in analysis of interoperability in context of GEORGE/marine data domain: 
+- RDA maturty model
+- FAIR principles
+- (self-defined) interoperability framework for this specific assessment  
+    - focus: 
+- ODIS  
+    - focus: technical, syntactical, and semantical interoperability  
+    - ...
+- 5-star data
+    - focus: technical, syntactical, and semantical interoperability
+    - ...
+- croissant ML
+    - focus: semantical interoperability
+    - ...
+--> also tools ..
 
 --> use cases to identify where top-down approach lacks & bottom-up effort is needed to close the GAP
 
