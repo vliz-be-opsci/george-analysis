@@ -1,5 +1,14 @@
 # GEORGE gap-analysis
 
+## Analysis & Findings
+
+The interoperability assessment of data services / webservices is documented in Jupyter notebooks.
+
+- [ODIS compliance](ODIScompliance.ipynb)
+- [5 star open data](5StarOpenData.ipynb)
+- [Interoperability of services according to type](Interoperability_WebserviceType.ipynb)
+
+
 ## using this project
 
 Steps:
