@@ -1,0 +1,11 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+SELECT DISTINCT (LANG(?label) AS ?lang)
+WHERE {
+  ?s ?p ?label .
+  VALUES ?p { rdfs:label skos:prefLabel dc:title }
+  FILTER(LANG(?label) != "")
+}
+LIMIT 10000

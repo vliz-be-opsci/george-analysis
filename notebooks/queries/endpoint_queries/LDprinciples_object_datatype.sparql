@@ -1,0 +1,8 @@
+SELECT DISTINCT 
+  ?object
+  (DATATYPE(?object) AS ?datatype)
+  (ISIRI(?object) && STRSTARTS(STR(?object), "http") AS ?uri)
+WHERE {
+  ?subject ?predicate ?object .
+}
+LIMIT 10000

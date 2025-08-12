@@ -1,0 +1,5 @@
+SELECT DISTINCT ?subject (ISIRI(?subject) AS ?isIRI)
+WHERE {
+  ?subject ?predicate ?object .
+}
+LIMIT 10000
