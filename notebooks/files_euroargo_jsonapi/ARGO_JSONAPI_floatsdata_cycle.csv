@@ -6,17 +6,17 @@ endDate,1,str,2008-03-23T02:00:54.000+0000
 coordinate,1,dict,"{'lat': -28.184, 'lon': -22.997}"
 coordinate.lat,1,float,-28.184
 coordinate.lon,1,float,-22.997
-globalGeoShapeField,1,dict,"{'x': -22.997, 'y': -28.184, 'coordinates': [-22.997, -28.184], 'type': 'Point'}"
+globalGeoShapeField,1,dict,"{'x': -22.997, 'y': -28.184, 'type': 'Point', 'coordinates': [-22.997, -28.184]}"
 globalGeoShapeField.x,1,float,-22.997
 globalGeoShapeField.y,1,float,-28.184
-globalGeoShapeField.coordinates,1,list,"[-22.997, -28.184]"
 globalGeoShapeField.type,1,str,Point
+globalGeoShapeField.coordinates,1,list,"[-22.997, -28.184]"
 platformCode,1,str,3900675
 positionQc,1,str,1
 dateQc,1,str,1
 cycleQcState,1,str,Good
 pmax,1,float,1820.0
-stations,1,list,"[{'stationId': 5933705, 'coordinate': {'lat': -28.184, 'lon': -22.997}, 'cvNumber': 1, 'positionQc': '1', 'dateQc': '1', 'type': 'Primary sampling: averaged [data averaged with equal weights into irregular pressure bins', 'direction': 'A', 'date': '2008-03-23T02:00:54.000+0000', 'level': 79, 'primary': True, 'physicalParameters': [66, 35, 68, 70, 28, 30]}]"
+stations,1,list,"[{'stationId': 5933705, 'coordinate': {'lat': -28.184, 'lon': -22.997}, 'cvNumber': 1, 'positionQc': '1', 'dateQc': '1', 'type': 'Primary sampling: averaged [data averaged with equal weights into irregular pressure bins', 'direction': 'A', 'date': '2008-03-23T02:00:54.000+0000', 'level': 79, 'primary': True, 'syntheticSampling': False, 'physicalParameters': [66, 35, 68, 70, 28, 30]}]"
 stations.stationId,1,int,5933705
 stations.coordinate,1,dict,"{'lat': -28.184, 'lon': -22.997}"
 stations.coordinate.lat,1,float,-28.184
@@ -29,7 +29,9 @@ stations.direction,1,str,A
 stations.date,1,str,2008-03-23T02:00:54.000+0000
 stations.level,1,int,79
 stations.primary,1,bool,True
+stations.syntheticSampling,1,bool,False
 stations.physicalParameters,1,list,"[66, 35, 68, 70, 28, 30]"
+stationsId,1,list,[5933705]
 basins,1,list,"['ATLANTIC OCEAN', 'SOUTHWEST ATLANTIC OCEAN (20W)']"
 parameters,1,list,"['TEMP', 'PRES', 'PSAL']"
 networkCodes,1,list,['CORE']
@@ -43,9 +45,9 @@ dacCode,1,str,AOML
 platformTypeCode,1,str,SOLO_W
 pI,1,str,BRECK OWENS
 statusCode,1,str,I
-sensors,1,list,"['CTD_TEMP', 'CTD_PRES', 'CTD_CNDC']"
+sensors,1,list,"['CTD_TEMP', 'CTD_CNDC', 'CTD_PRES']"
 dataMode,1,str,D
-lastUpdateDate,1,str,2024-08-11T16:00:49.248+0000
+lastUpdateDate,1,str,2025-08-17T16:00:56.873+0000
 level,1,int,79
 physicalParameters,1,list,"[{'code': 66, 'labelWithCode': '66#Sea pressure adjusted'}, {'code': 68, 'labelWithCode': '68#Sea temperature adjusted'}, {'code': 70, 'labelWithCode': '70#Practical salinity adjusted'}]"
 physicalParameters.code,3,int,70

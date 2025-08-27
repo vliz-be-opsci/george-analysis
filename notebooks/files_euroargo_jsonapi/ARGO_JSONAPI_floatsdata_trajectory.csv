@@ -1,0 +1,7 @@
+Property,Count,Types,Example
+id,116,int,1199770
+cvNumber,116,int,60
+coordinate,116,dict,"{'lat': -27.449, 'lon': -33.858}"
+coordinate.lat,116,float,-27.449
+coordinate.lon,116,float,-33.858
+level,116,int,0
