@@ -1,0 +1,58 @@
+DatasetID,Property,Count,Types,Example,UniqueValues
+allDatasets,datasetID,54,object,allDatasets,set()
+allDatasets,accessible,54,object,public,"{'log in', 'public'}"
+allDatasets,institution,54,object,Ifremer,set()
+allDatasets,dataStructure,54,object,table,"{'grid', 'table'}"
+allDatasets,cdm_data_type,54,object,Other,"{'Grid', 'TrajectoryProfile', 'Profile', 'Trajectory', 'TimeSeries', 'Point', 'Other'}"
+allDatasets,class,54,object,EDDTableFromAllDatasets,"{'EDDTableFromErddap', 'EDDTableFromNcFiles', 'EDDGridSideBySide', 'EDDTableFromAllDatasets', 'EDDGridFromNcFiles', 'EDDTableFromMultidimNcFiles', 'EDDTableFromAsciiFiles'}"
+allDatasets,title,54,object,* The List of All Active Datasets in this ERDDAP *,set()
+allDatasets,minLongitude (degrees_east),48,float64,-78.378,set()
+allDatasets,maxLongitude (degrees_east),48,float64,-2.378,set()
+allDatasets,longitudeSpacing (degrees_east),32,float64,1.0,"{0.1652301818181818, 1.0, 0.0625, 0.0833338391502276, 0.125, 0.25, 0.5, 0.0041666666666666, 0.01}"
+allDatasets,minLatitude (degrees_north),48,float64,13.037,set()
+allDatasets,maxLatitude (degrees_north),48,float64,63.037,set()
+allDatasets,latitudeSpacing (degrees_north),32,float64,1.0,"{0.0833337830319888, 1.0, 0.03125, 0.125, 0.25, 0.5, 0.0041666666666666, 0.01, 0.0537760714285714}"
+allDatasets,minAltitude (m),34,float64,-0.0,"{-0.0, 0.24, 0.99221, 3.17745, 3283.04761, -5.0}"
+allDatasets,maxAltitude (m),34,float64,-0.0,set()
+allDatasets,minTime (UTC),44,object,1997-07-28T20:26:20Z,set()
+allDatasets,maxTime (UTC),46,object,2026-12-27T14:48:20Z,set()
+allDatasets,timeSpacing (seconds),31,float64,2629288.4210526315,set()
+allDatasets,griddap,34,object,https://erddap.ifremer.fr/erddap/griddap/OACP-Argo-Global,set()
+allDatasets,subset,13,object,https://erddap.ifremer.fr/erddap/tabledap/allDatasets.subset,set()
+allDatasets,tabledap,19,object,https://erddap.ifremer.fr/erddap/tabledap/allDatasets,set()
+allDatasets,MakeAGraph,53,object,https://erddap.ifremer.fr/erddap/tabledap/allDatasets.graph,set()
+allDatasets,sos,0,float64,,set()
+allDatasets,wcs,0,float64,,set()
+allDatasets,wms,31,object,https://erddap.ifremer.fr/erddap/wms/OACP-Argo-Global/request,set()
+allDatasets,files,5,object,https://erddap.ifremer.fr/erddap/files/gosud/,"{'https://erddap.ifremer.fr/erddap/files/traj_lonlat_init_t0/', 'https://erddap.ifremer.fr/erddap/files/ariane_trajectories_qualitative/', 'https://erddap.ifremer.fr/erddap/files/histo_coord/', 'https://erddap.ifremer.fr/erddap/files/gosud/', 'https://erddap.ifremer.fr/erddap/files/coast_status/'}"
+allDatasets,fgdc,48,object,https://erddap.ifremer.fr/erddap/metadata/fgdc/xml/OACP-Argo-NATL_fgdc.xml,set()
+allDatasets,iso19115,48,object,https://erddap.ifremer.fr/erddap/metadata/iso19115/xml/OACP-Argo-NATL_iso19115.xml,set()
+allDatasets,metadata,53,object,https://erddap.ifremer.fr/erddap/info/allDatasets/index,set()
+allDatasets,sourceUrl,53,object,https://erddap.ifremer.fr/erddap,"{'ftp://ftp.ifremer.fr/ifremer/argo/ar_index_global_prof.txt', 'https://erddap.ifremer.fr/erddap', '(local files)'}"
+allDatasets,infoUrl,53,object,https://erddap.ifremer.fr/erddap,set()
+allDatasets,rss,53,object,https://erddap.ifremer.fr/erddap/rss/allDatasets.rss,set()
+allDatasets,email,53,object,https://erddap.ifremer.fr/erddap/subscriptions/add.html?datasetID=allDatasets&showErrors=false&email=,set()
+allDatasets,testOutOfDate,4,object,now-5days,"{'now-109days', 'now-16days', 'now-5days', 'now-2days'}"
+allDatasets,outOfDate,4,float64,0.48590443,"{0.48590443, 8.12699, 12.705298, 61.73195}"
+allDatasets,summary,54,object,This dataset is a table which has a row of information for each dataset currently active in this ERDDAP.,set()
+OACP-Argo-NATL,longitude (degrees_east),2884,float64,-78.378,set()
+OACP-Argo-NATL,latitude (degrees_north),2884,float64,13.037,set()
+OACP-Argo-NATL,PPD (m),1743,float64,-588.3899845226047,set()
+OACP-Argo-NATL,PPD_er (m),1743,float64,46.29220893335079,set()
+OACP-Argo-NATL,PPH (m),1743,float64,380.3068879042079,set()
+OACP-Argo-NATL,PPH_er (m),1743,float64,168.24595894525078,set()
+OACP-Argo-NATL,PPHTOP (m),1743,float64,152.02183317519518,set()
+OACP-Argo-NATL,PPHTOP_er (m),1743,float64,41.25689214462542,set()
+OACP-Argo-NATL,PPHBTO (m),1743,float64,228.2850547290127,set()
+OACP-Argo-NATL,PPHBTO_er (m),1743,float64,179.5580835500565,set()
+OACP-Argo-NATL,PPTEMP (deg C),1743,float64,8.455468580955197,set()
+OACP-Argo-NATL,PPPSAL (PSU),1743,float64,34.9411918585997,set()
+OACP-Argo-NATL,PPSIG0 (kg/m^3),1743,float64,27.167033942556333,set()
+OACP-Argo-NATL,PPPLPV (m^-1 s^-1),1743,float64,3.237436939089251e-11,set()
+OACP-Argo-NATL,PPBFRQ (s^-2),1743,float64,9.627961292938044e-06,set()
+OACP-Argo-NATL,MWD (m),1743,float64,-392.6713725782437,set()
+OACP-Argo-NATL,MWTEMP (deg C),1743,float64,10.022486529579515,set()
+OACP-Argo-NATL,MWPSAL (PSU),1743,float64,35.062122533849646,set()
+OACP-Argo-NATL,MWSIG0 (kg/m^3),1743,float64,27.00424311911201,set()
+OACP-Argo-NATL,MWPLPV (m^-1 s^-1),1743,float64,2.4957282337300384e-11,set()
+OACP-Argo-NATL,MWBFRQ (s^-2),1743,float64,7.420966460452227e-06,set()
