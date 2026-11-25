@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+title: "GEORGE Interoperability Gap Analysis"
+message: "If you use this software or analysis, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: "Van Maldeghem"
+    given-names: "Laurian"
+    affiliation: "Flanders Marine Institute (VLIZ)"
+    orcid: "https://orcid.org/0000-0003-0663-5907"
+  - family-names: "Portier"
+    given-names: "Marc"
+    affiliation: "Flanders Marine Institute (VLIZ)"
+    orcid: "https://orcid.org/0000-0002-9648-6484"
+  - family-names: "Gkritzalis"
+    given-names: "Thanos"
+    affiliation: "Flanders Marine Institute (VLIZ)"
+    orcid: "https://orcid.org/0000-0002-7897-4230"
+license: CC0-1.0
+repository-code: "https://github.com/vliz-be-opsci/george-analysis"
+abstract: >-
+  Interoperability and FAIRness gap analysis of marine research infrastructure
+  data services (Euro-Argo, ICOS, EMSO ERIC, and IFREMER) conducted within the
+  Horizon Europe GEORGE project (Grant Agreement No. 101094716). Includes
+  Jupyter notebooks assessing ODIS compliance, 5-Star Open Data maturity, and
+  service-type interoperability across multiple data access protocols, together
+  with supporting Docker-based semantic ingestion and dereferencing services.
+keywords:
+  - GEORGE
+  - FAIR
+  - interoperability
+  - ODIS
+  - marine data
+  - research infrastructures
+  - Euro-Argo
+  - ICOS
+  - EMSO ERIC
+  - ERDDAP
+  - SPARQL
+  - OGC SensorThings API
+version: "1.0.0"
+date-released: "2026-11-25"

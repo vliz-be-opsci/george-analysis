@@ -1,0 +1,24 @@
+# Environment & secrets
+.env
+.env.*
+!dotenv-example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs & runtime outputs
+logging/*.log
+data/sembench-data/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
